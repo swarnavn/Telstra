@@ -1,0 +1,82 @@
+simple	27-Jul-2018 06:38:52	Build EDGE-O2A-Amdocs - EDGEO2ATosca_REG - Tosca Automation #2 (EOA-ED-JOB1-2) started building on agent W00B3616CE1257.wg.dir.telstra.com (3)
+simple	27-Jul-2018 06:38:52	Remote agent on host W00B3616CE1257.wg.dir.telstra.com
+simple	27-Jul-2018 06:38:52	Build working directory is C:\Users\d832470\bamboo-agent-home\xml-data\build-dir\EOA-ED-JOB1
+simple	27-Jul-2018 06:38:52	Executing build EDGE-O2A-Amdocs - EDGEO2ATosca_REG - Tosca Automation #2 (EOA-ED-JOB1-2)
+simple	27-Jul-2018 06:38:52	Running pre-build action: VCS Version Collector
+simple	27-Jul-2018 06:38:52	Running pre-build action: Sauce OnDemand Build Configurator
+simple	27-Jul-2018 06:38:52	Running pre-build action: Hung Build Killer PreBuildAction
+command	27-Jul-2018 06:38:52	Substituting variable: ${bamboo.test_run_type} with Regression
+command	27-Jul-2018 06:38:52	Substituting variable: ${bamboo.test_run_type} with Regression
+simple	27-Jul-2018 06:38:52	Starting task 'Start Tosca Execution' of type 'com.atlassian.bamboo.plugins.scripttask:task.builder.script'
+command	27-Jul-2018 06:38:52	Beginning to execute external process for build 'EDGE-O2A-Amdocs - EDGEO2ATosca_REG - Tosca Automation #2 (EOA-ED-JOB1-2)'\n ... running command line: \nC:\Users\d832470\bamboo-agent-home\temp\EOA-ED-JOB1-2-ScriptBuildTask-7973013913403944232.bat\n ... in: C:\Users\d832470\bamboo-agent-home\xml-data\build-dir\EOA-ED-JOB1\n ... using extra environment variables: \nbamboo_capability_system_builder_ant_Ant_1_9=/srv/ci/tools/ant/apache-ant-1.9.7\nbamboo_capability_system_builder_ant_Ant_1_8=/srv/ci/tools/ant/apache-ant-1.8.4\nbamboo_jetpack_sonarqube_api_password=********\nbamboo_capability_system_builder_msbuild_MSBuild_v4_0__32bit_=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe\nbamboo_nexus_deployment_password=********\nbamboo_smtp_mail_password=********\nbamboo_buildKey=EOA-ED-JOB1\nbamboo_no_proxy=localhost,127.0.0.1,.corp.telstra.com\nbamboo_jenkins_password=********\nbamboo_sonarqube_host_url=https://sonarqube.ae.sda.corp.telstra.com/\nbamboo_user_03_name=bamboo-user03\nbamboo_mail_to_my_address=arielli@amdocs.com\nbamboo_shortJobName=Tosca Automation\nbamboo_buildResultsUrl=http://master2.ci.ae.sda.corp.telstra.com/browse/EOA-ED-JOB1-2\nbamboo_jetpack_coverity_api_host=lxappconn001.dev.in.telstra.com.au\nbamboo_capability_system_builder_msbuild_MSBuild_v2_0__64bit_=C:\WINDOWS\Microsoft.NET\Framework64\v2.0.50727\MSBuild.exe\nbamboo_aquasec_scanner_user=scanner\nbamboo_smtp_mail_user=n106859\nbamboo_jetpack_feature_sonarqube_enabled=true\nbamboo_agentId=1111818246\nbamboo_capability_windowsagentname=W00B3616CE1257.wg.dir.telstra.com3\nbamboo_aquasec_scanner_password=********\nbamboo_qualys_api_username=testr_tt3\nbamboo_nexus_security_artifacts_url=https://repo1.ae.sda.corp.telstra.com/nexus/content/sites/janus/security-verification-badges/\nbamboo_capability_system_builder_command_Terraform=/srv/ci/tools/terraform/terraform\nbamboo_capability_system_builder_node_NPM_6_9=/srv/ci/tools/node/bin/npm\nbamboo_jetpack_coverity_api_port=8443\nbamboo_capability_system_builder_command_RabbitMQ=/usr/sbin/rabbitmq-server\nbamboo_mail_to_addresses=ariel.lieberman@team.telstra.com,arielli@amdocs.com,rishayahkumar.trivedi@amdocs.com,swarnav.nandy@amdocs.com,sbhutada@amdocs.com, gaurav.sharma2@amdocs.com,DCCOSSCCTelstraDEV@amdocs.com,DCCOSSCCBarcelona@amdocs.com,rajatgu@amdocs.com\nbamboo_capability_system_builder_command_Ansible=/usr/bin/ansible\nbamboo_capability_system_jdk_JDK_1_8_0_172__JRE_=C:\Program Files\Java\jre1.8.0_172\nbamboo_capability_system_builder_msbuild_MSBuild_v2_0__32bit_=C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\MSBuild.exe\nbamboo_sonar_host_url=https://sonarqube.ae.sda.corp.telstra.com/\nbamboo_jetpack_metrics_port=2003\nbamboo_jetpack_quickstart=https://repo1.ae.sda.corp.telstra.com/nexus/content/sites/janus/scripts/edn-bamboo-jetpack-quickstart.sh\nbamboo_http_proxy=buildproxy01.ae.sda.corp.telstra.com:3129\nbamboo_capability_system_builder_msbuild_MSBuild_v3_5__32bit_=C:\WINDOWS\Microsoft.NET\Framework\v3.5\MSBuild.exe\nbamboo_dependenciesDisabled=false\nbamboo_jetpack_srcclr_scan=https://repo1.ae.sda.corp.telstra.com/nexus/service/local/repositories/janus/content/scripts/edn-bamboo-srcclr-scan.sh\nbamboo_sonarqube67_host_url=https://sonarqube67.ae.sda.corp.telstra.com\nbamboo_sonarqube_auth_token=4b25074ebd9c485a8f7b7c637556e38ddc288199\nbamboo_user_01_password=********\nbamboo_jetpack_sonarqube_host=sonarqube.ae.sda.corp.telstra.com\nbamboo_jetpack_coverity_log_level=DEBUG\nbamboo_capability_system_builder_command_Packer=/srv/ci/tools/packer/packer\nbamboo_jetpack_coverity_api_password=********\nbamboo_capability_system_jdk_JDK=C:\Program Files\Java\jre1.8.0_172\nbamboo_jetpack_coverity_api_username=Janus_Admin\nbamboo_proxy_host=buildproxy01.ae.sda.corp.telstra.com\nbamboo_jetpack_sonarqube_scan=https://repo1.ae.sda.corp.telstra.com/nexus/service/local/repositories/janus/content/scripts/edn-bamboo-sonarqube-scan.sh\nbamboo_ManualBuildTriggerReason_userName=d832470\nbamboo_jetpack_version=1.8\nbamboo_jetpack_metrics_host=metrics.ae.sda.corp.telstra.com\nbamboo_planKey=EOA-ED\nbamboo_jetpack_newrelic_api_token_password=********\nbamboo_nexus_deployment_user=deployment\nbamboo_coverity_analysis_host=10.60.179.171\nbamboo_capability_system_builder_command_Ansible_2_2=/srv/ci/tools/ansible-2.2.0.0/bin/ansible\nbamboo_qualys_api_password=********\nbamboo_jetpack_password_password=********\nbamboo_sonarqube67_auth_token=778c2b370a5f692dada7e848dc01dc34e5ceb4cc\nbamboo_resultsUrl=http://master2.ci.ae.sda.corp.telstra.com/browse/EOA-ED-JOB1-2\nbamboo_jetpack_docker_image_scan=https://repo1.ae.sda.corp.telstra.com/nexus/service/local/repositories/janus/content/scripts/edn-bamboo-docker-image-scan.sh\nbamboo_build_working_directory=C:\Users\d832470\bamboo-agent-home\xml-data\build-dir\EOA-ED-JOB1\nbamboo_docker_registry_v2_host=docker-registry-v2.ae.sda.corp.telstra.com\nbamboo_shortPlanName=EDGEO2ATosca_REG\nbamboo_user_03_password=********\nbamboo_capability_system_builder_msbuild_MSBuild_v3_5__64bit_=C:\WINDOWS\Microsoft.NET\Framework64\v3.5\MSBuild.exe\nbamboo_jetpack_username_password=********\nbamboo_https_proxy=buildproxy01.ae.sda.corp.telstra.com:3129\nbamboo_buildNumber=2\nbamboo_planName=EDGE-O2A-Amdocs - EDGEO2ATosca_REG\nbamboo_shortPlanKey=ED\nbamboo_test_run_type=Regression\nbamboo_jetpack_feature_coverity_enabled=true\nbamboo_shortJobKey=JOB1\nbamboo_jetpack_newrelic_app_name=jetpack\nbamboo_buildTimeStamp=2018-07-27T06:38:38.755Z\nbamboo_jetpack_coverity_api_coordinator_host=lxappcord001.dev.in.telstra.com.au\nbamboo_buildResultKey=EOA-ED-JOB1-2\nbamboo_proxy_port=3129\nbamboo_buildPlanName=EDGE-O2A-Amdocs - EDGEO2ATosca_REG - Tosca Automation\nbamboo_user_01_name=bamboo-user01\nbamboo_coreos_hosts_num=3\nbamboo_user_02_password=********\nbamboo_jetpack_webapp_scan=https://repo1.ae.sda.corp.telstra.com/nexus/service/local/repositories/janus/content/scripts/edn-bamboo-jetpack-webapp-scan.sh\nbamboo_jetpack_srcclr_log_level=DEBUG\nbamboo_buildFailed=false\nbamboo_jetpack_srcclr_cert_password=********\nbamboo_capability_system_builder_command_Stage__add_release_and_label_to_comments=/srv/ci/tools/python/scripts/addReleasedArtifactsCommentAdditionInBuildStage.sh\nbamboo_jetpack_deploy=https://repo1.ae.sda.corp.telstra.com/nexus/service/local/repositories/janus/content/scripts/edn-bamboo-deploy.sh\nbamboo_agentWorkingDirectory=C:\Users\d832470\bamboo-agent-home\xml-data\build-dir\nbamboo_jetpack_user=********\nbamboo_aquasec_host_url=https://aquasec.ae.sda.corp.telstra.com\nbamboo_capability_system_builder_command_Release_Comment_and_Label=/srv/ci/tools/python/scripts/add_released_artifacts_comment.sh\nbamboo_capability_system_builder_node_NodeJS_6_9=/srv/ci/tools/node/bin/node\nbamboo_jetpack_password=********\nbamboo_jetpack_feature_srcclr_enabled=true\nbamboo_docker_registry_v1_host=docker-registry.ae.sda.corp.telstra.com\nbamboo_plan_storageTag=plan-1111164340\nbamboo_jetpack_srcclr_key_password=********\nbamboo_user_02_name=bamboo-user02\nbamboo_capability_system_builder_msbuild_MSBuild_v4_0__64bit_=C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe\nbamboo_jetpack=\nbamboo_working_directory=C:\Users\d832470\bamboo-agent-home\xml-data\build-dir\EOA-ED-JOB1\nbamboo_tconnect_bitbucket_host=52.76.147.111\nbamboo_capability_system_jdk_JDK_1_8=C:\Program Files\Java\jre1.8.0_172\nbamboo_jetpack_srcclr_api_token_password=********\nbamboo_jetpack_sonarqube_api_token=********\n
+build	27-Jul-2018 06:38:52	
+build	27-Jul-2018 06:38:52	C:\Users\d832470\bamboo-agent-home\xml-data\build-dir\EOA-ED-JOB1>D:
+build	27-Jul-2018 06:38:52	
+build	27-Jul-2018 06:38:52	D:\>cd "D:\ToscaCI\Client" 
+build	27-Jul-2018 06:38:52	
+build	27-Jul-2018 06:38:52	D:\ToscaCI\Client>ToscaCIClient.exe -m distributed -r "D:\BambooResultsLog\Regression_results_DEX.xml" -c "D:\ToscaCI\Client\DEX_Regression.xml" -l "Robot" -p "Telstra" -x "False" -e "http://localhost:8888/DistributionServerService/ManagerService.svc" 
+build	27-Jul-2018 06:38:55	*********************************************************
+build	27-Jul-2018 06:38:55	* Tricentis                                             *
+build	27-Jul-2018 06:38:55	* www.tricentis.com                                     *
+build	27-Jul-2018 06:38:55	* support@tricentis.com                                 *
+build	27-Jul-2018 06:38:55	*********************************************************
+build	27-Jul-2018 06:38:55	* TOSCACI-Client 11.1.0.1302                                *
+build	27-Jul-2018 06:38:55	*********************************************************
+build	27-Jul-2018 06:38:55	
+build	27-Jul-2018 06:38:55	
+build	27-Jul-2018 06:39:06	2018-07-27 16:39:06,414  - CI Client was registered successfully on DEX server.
+build	27-Jul-2018 06:39:06	 Client state:
+build	27-Jul-2018 06:39:06	---------------------------------------------------------
+build	27-Jul-2018 06:39:06	 Endpoints:
+build	27-Jul-2018 06:39:06	---------------------------------------------------------
+build	27-Jul-2018 06:39:06	2018-07-27 16:39:06,429  - http://localhost:8888/DistributionServerService/ManagerService.svc
+build	27-Jul-2018 06:39:06	
+build	27-Jul-2018 06:39:06	---------------------------------------------------------
+build	27-Jul-2018 06:39:06	2018-07-27 16:39:06,476  - Starting to poll Dex server for results. Timeout: 10800000. Interval: 300000
+build	27-Jul-2018 06:44:08	2018-07-27 16:44:08,348  - Polled Dex Server. Execution is not yet finished.
+build	27-Jul-2018 06:49:10	2018-07-27 16:49:10,456  - Main: CommunicationException occured
+build	27-Jul-2018 06:49:10	The maximum message size quota for incoming messages (65536) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+build	27-Jul-2018 06:49:10	
+build	27-Jul-2018 06:49:10	Server stack trace: 
+build	27-Jul-2018 06:49:10	   at System.ServiceModel.Channels.HttpInput.ThrowMaxReceivedMessageSizeExceeded()
+build	27-Jul-2018 06:49:10	   at System.ServiceModel.Channels.HttpInput.GetMessageBuffer()
+build	27-Jul-2018 06:49:10	   at System.ServiceModel.Channels.HttpInput.ReadBufferedMessage(Stream inputStream)
+build	27-Jul-2018 06:49:10	   at System.ServiceModel.Channels.HttpInput.ParseIncomingMessage(HttpRequestMessage httpRequestMessage, Exception& requestException)
+build	27-Jul-2018 06:49:10	   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+build	27-Jul-2018 06:49:10	   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+build	27-Jul-2018 06:49:10	   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+build	27-Jul-2018 06:49:10	   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+build	27-Jul-2018 06:49:10	   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+build	27-Jul-2018 06:49:10	   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+build	27-Jul-2018 06:49:10	
+build	27-Jul-2018 06:49:10	Exception rethrown at [0]: 
+build	27-Jul-2018 06:49:10	   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+build	27-Jul-2018 06:49:10	   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+build	27-Jul-2018 06:49:10	   at TOSCAContinuousIntegration.TOSCACIClient.ManagerService.IManagerService.PollCiTestEventsResults(PollCiTestEventsResultsRequest pollCiTestEventsResultsRequest)
+build	27-Jul-2018 06:49:10	   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.PollDexServer()
+build	27-Jul-2018 06:49:10	   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.Execute()
+build	27-Jul-2018 06:49:10	The maximum message size quota for incoming messages (65536) has been exceeded. To increase the quota, use the MaxReceivedMessageSize property on the appropriate binding element.
+build	27-Jul-2018 06:49:10	
+build	27-Jul-2018 06:49:10	   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.Execute()
+build	27-Jul-2018 06:49:10	   at TOSCAContinuousIntegration.TOSCACIClient.Program.Main(String[] args)
+simple	27-Jul-2018 06:49:10	Failing task since return code of [C:\Users\d832470\bamboo-agent-home\temp\EOA-ED-JOB1-2-ScriptBuildTask-7973013913403944232.bat] was -1 while expected 0
+simple	27-Jul-2018 06:49:10	Finished task 'Start Tosca Execution' with result: Failed
+simple	27-Jul-2018 06:49:10	Running post build plugin 'Docker Container Cleanup'
+simple	27-Jul-2018 06:49:10	Running post build plugin 'NCover Results Collector'
+simple	27-Jul-2018 06:49:10	Running post build plugin 'Clover Results Collector'
+simple	27-Jul-2018 06:49:10	Running post build plugin 'Sauce OnDemand Post Runner'
+simple	27-Jul-2018 06:49:10	Running post build plugin 'npm Cache Cleanup'
+simple	27-Jul-2018 06:49:10	Running post build plugin 'Artifact Copier'
+simple	27-Jul-2018 06:49:10	Finalising the build...
+simple	27-Jul-2018 06:49:10	Stopping timer.
+simple	27-Jul-2018 06:49:10	Build EOA-ED-JOB1-2 completed.
+simple	27-Jul-2018 06:49:10	Running on server: post build plugin 'NCover Results Collector'
+simple	27-Jul-2018 06:49:10	Running on server: post build plugin 'Build Hanging Detection Configuration'
+simple	27-Jul-2018 06:49:10	Running on server: post build plugin 'Clover Delta Calculator'
+simple	27-Jul-2018 06:49:10	Running on server: post build plugin 'Maven Dependencies Postprocessor'
+simple	27-Jul-2018 06:49:10	All post build plugins have finished
+simple	27-Jul-2018 06:49:11	Generating build results summary...
+simple	27-Jul-2018 06:49:11	Saving build results to disk...
+simple	27-Jul-2018 06:49:11	Logging substituted variables...
+simple	27-Jul-2018 06:49:11	Indexing build results...
+simple	27-Jul-2018 06:49:11	Finished building EOA-ED-JOB1-2.
