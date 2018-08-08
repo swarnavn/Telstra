@@ -1,3 +1,19 @@
 https://wiki.ae.sda.corp.telstra.com/display/AE/How+to+dedicate+your+private+Bamboo+agent+to+Plan+or+Deployment+Project
 HTTPS://SUPPORT.TRICENTIS.COM/COMMUNITY/ARTICLE.DO?NUMBER=KB0013147
 /Amdocs_Connected Dev/Regression/Sanity/SanityFlows/Execution/ExecutionLists/R1-Order Modify/ActualLog/R1 Manage Order Request/R1 MOD/Communicate/Send
+
+RPA_ DF0012V=
+
+(DESCRIPTION = 
+(ADDRESS = (PROTOCOL = TCP)(HOST = ssdb0201n01-oravip.in.telstra.com.au)(PORT = 1521))
+(ADDRESS = (PROTOCOL = TCP)(HOST = ssdb0201n02-oravip.in.telstra.com.au)(PORT = 1521))
+(LOAD_BALANCE = yes)(CONNECT_DATA = (SERVER = DEDICATED) 
+(SERVICE_NAME = DF0012V_A_G_O_01.in.telstra.com.au)
+)
+)
+
+
+Login Credentials:
+
+RPA_01_TOSCA_01
+Welcome123
