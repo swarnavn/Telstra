@@ -19,3 +19,14 @@ RPA_01_TOSCA_01
 Welcome123
 
 Data Source=(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = ssdb0201n01-oravip.in.telstra.com.au)(PORT = 1521))(ADDRESS = (PROTOCOL = TCP)(HOST = ssdb0201n02-oravip.in.telstra.com.au)(PORT = 1521))(LOAD_BALANCE = yes)(CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = DF0012V_A_G_O_01.in.telstra.com.au)));User Id=RPA_01_TOSCA_01;Password=Welcome123;
+
+TelstraEdgeRepo =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = ssdb0201n01-oravip.in.telstra.com.au)(PORT = 1521))
+    (ADDRESS = (PROTOCOL = TCP)(HOST = ssdb0201n02-oravip.in.telstra.com.au)(PORT = 1521))
+    (LOAD_BALANCE = yes)
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = DF0012P_A_S_O_01)
+    )
+  )
