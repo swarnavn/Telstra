@@ -1,0 +1,283 @@
+simple	21-Sep-2018 01:30:15	Build EDGE-O2A-Amdocs - EDGEO2ATosca_REG - Tosca Automation #25 (EOA-ED-JOB1-25) started building on agent W00B3616CE1257.wg.dir.telstra.com (3)
+simple	21-Sep-2018 01:30:15	Remote agent on host W00B3616CE1257.wg.dir.telstra.com
+simple	21-Sep-2018 01:30:15	Build working directory is C:\Users\d832470\bamboo-agent-home\xml-data\build-dir\EOA-ED-JOB1
+simple	21-Sep-2018 01:30:15	Executing build EDGE-O2A-Amdocs - EDGEO2ATosca_REG - Tosca Automation #25 (EOA-ED-JOB1-25)
+simple	21-Sep-2018 01:30:15	Running pre-build action: VCS Version Collector
+simple	21-Sep-2018 01:30:15	Running pre-build action: Sauce OnDemand Build Configurator
+simple	21-Sep-2018 01:30:15	Running pre-build action: Hung Build Killer PreBuildAction
+command	21-Sep-2018 01:30:15	Substituting variable: ${bamboo.test_run_type} with Regression
+command	21-Sep-2018 01:30:15	Substituting variable: ${bamboo.test_run_type} with Regression
+command	21-Sep-2018 01:30:15	Substituting variable: ${bamboo.test_run_type} with Regression
+simple	21-Sep-2018 01:30:15	Starting task 'Start Tosca Execution' of type 'com.atlassian.bamboo.plugins.scripttask:task.builder.script'
+command	21-Sep-2018 01:30:15	Beginning to execute external process for build 'EDGE-O2A-Amdocs - EDGEO2ATosca_REG - Tosca Automation #25 (EOA-ED-JOB1-25)'\n ... running command line: \nC:\Users\d832470\bamboo-agent-home\temp\EOA-ED-JOB1-25-ScriptBuildTask-5802593364609565712.bat\n ... in: C:\Users\d832470\bamboo-agent-home\xml-data\build-dir\EOA-ED-JOB1\n ... using extra environment variables: \nbamboo_capability_system_builder_ant_Ant_1_9=/srv/ci/tools/ant/apache-ant-1.9.7\nbamboo_capability_system_builder_ant_Ant_1_8=/srv/ci/tools/ant/apache-ant-1.8.4\nbamboo_jetpack_sonarqube_api_password=********\nbamboo_capability_system_builder_msbuild_MSBuild_v4_0__32bit_=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe\nbamboo_nexus_deployment_password=********\nbamboo_smtp_mail_password=********\nbamboo_buildKey=EOA-ED-JOB1\nbamboo_no_proxy=localhost,127.0.0.1,.corp.telstra.com\nbamboo_jenkins_password=********\nbamboo_sonarqube_host_url=https://sonarqube.ae.sda.corp.telstra.com/\nbamboo_user_03_name=bamboo-user03\nbamboo_mail_to_my_address=arielli@amdocs.com\nbamboo_shortJobName=Tosca Automation\nbamboo_buildResultsUrl=http://master2.ci.ae.sda.corp.telstra.com/browse/EOA-ED-JOB1-25\nbamboo_jetpack_coverity_api_host=lxappconn001.dev.in.telstra.com.au\nbamboo_capability_system_builder_msbuild_MSBuild_v2_0__64bit_=C:\WINDOWS\Microsoft.NET\Framework64\v2.0.50727\MSBuild.exe\nbamboo_aquasec_scanner_user=scanner\nbamboo_smtp_mail_user=n106859\nbamboo_jetpack_feature_sonarqube_enabled=true\nbamboo_agentId=1148190736\nbamboo_aquasec_scanner_password=********\nbamboo_qualys_api_username=testr_tt3\nbamboo_nexus_security_artifacts_url=https://repo1.ae.sda.corp.telstra.com/nexus/content/sites/janus/security-verification-badges/\nbamboo_capability_system_builder_command_Terraform=/srv/ci/tools/terraform/terraform\nbamboo_capability_system_builder_node_NPM_6_9=/srv/ci/tools/node/bin/npm\nbamboo_jetpack_coverity_api_port=8443\nbamboo_capability_system_builder_command_RabbitMQ=/usr/sbin/rabbitmq-server\nbamboo_mail_to_addresses=ariel.lieberman@team.telstra.com,arielli@amdocs.com,rishayahkumar.trivedi@amdocs.com,swarnav.nandy@amdocs.com,sbhutada@amdocs.com, gaurav.sharma2@amdocs.com,DCCOSSCCTelstraDEV@amdocs.com,DCCOSSCCBarcelona@amdocs.com,rajatgu@amdocs.com,priya.sarda@amdocs.com\nbamboo_capability_system_builder_command_Ansible=/usr/bin/ansible\nbamboo_capability_system_builder_msbuild_MSBuild_v2_0__32bit_=C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\MSBuild.exe\nbamboo_sonar_host_url=https://sonarqube.ae.sda.corp.telstra.com/\nbamboo_jetpack_metrics_port=2003\nbamboo_jetpack_quickstart=https://repo1.ae.sda.corp.telstra.com/nexus/content/sites/janus/scripts/edn-bamboo-jetpack-quickstart.sh\nbamboo_http_proxy=buildproxy01.ae.sda.corp.telstra.com:3129\nbamboo_capability_system_builder_msbuild_MSBuild_v3_5__32bit_=C:\WINDOWS\Microsoft.NET\Framework\v3.5\MSBuild.exe\nbamboo_dependenciesDisabled=false\nbamboo_jetpack_srcclr_scan=https://repo1.ae.sda.corp.telstra.com/nexus/service/local/repositories/janus/content/scripts/edn-bamboo-srcclr-scan.sh\nbamboo_sonarqube67_host_url=https://sonarqube67.ae.sda.corp.telstra.com\nbamboo_sonarqube_auth_token=4b25074ebd9c485a8f7b7c637556e38ddc288199\nbamboo_user_01_password=********\nbamboo_jetpack_sonarqube_host=sonarqube.ae.sda.corp.telstra.com\nbamboo_jetpack_coverity_log_level=DEBUG\nbamboo_capability_system_builder_command_Packer=/srv/ci/tools/packer/packer\nbamboo_capability_system_jdk_JDK_1_8_0_181__JRE_=C:\Program Files\Java\jre1.8.0_181\nbamboo_jetpack_ecr_push=https://repo1.ae.sda.corp.telstra.com/nexus/service/local/repositories/janus/content/scripts/edn-bamboo-ecr-push.sh\nbamboo_jetpack_coverity_api_password=********\nbamboo_capability_system_jdk_JDK=C:\Program Files\Java\jre1.8.0_181\nbamboo_jetpack_coverity_api_username=Janus_Admin\nbamboo_proxy_host=buildproxy01.ae.sda.corp.telstra.com\nbamboo_jetpack_sonarqube_scan=https://repo1.ae.sda.corp.telstra.com/nexus/service/local/repositories/janus/content/scripts/edn-bamboo-sonarqube-scan.sh\nbamboo_ManualBuildTriggerReason_userName=d832470\nbamboo_jetpack_version=1.8\nbamboo_jetpack_metrics_host=metrics.ae.sda.corp.telstra.com\nbamboo_planKey=EOA-ED\nbamboo_jetpack_newrelic_api_token_password=********\nbamboo_nexus_deployment_user=deployment\nbamboo_coverity_analysis_host=10.60.179.171\nbamboo_capability_system_builder_command_Ansible_2_2=/srv/ci/tools/ansible-2.2.0.0/bin/ansible\nbamboo_qualys_api_password=********\nbamboo_jetpack_password_password=********\nbamboo_sonarqube67_auth_token=778c2b370a5f692dada7e848dc01dc34e5ceb4cc\nbamboo_resultsUrl=http://master2.ci.ae.sda.corp.telstra.com/browse/EOA-ED-JOB1-25\nbamboo_jetpack_docker_image_scan=https://repo1.ae.sda.corp.telstra.com/nexus/service/local/repositories/janus/content/scripts/edn-bamboo-docker-image-scan.sh\nbamboo_build_working_directory=C:\Users\d832470\bamboo-agent-home\xml-data\build-dir\EOA-ED-JOB1\nbamboo_docker_registry_v2_host=docker-registry-v2.ae.sda.corp.telstra.com\nbamboo_shortPlanName=EDGEO2ATosca_REG\nbamboo_user_03_password=********\nbamboo_capability_system_builder_msbuild_MSBuild_v3_5__64bit_=C:\WINDOWS\Microsoft.NET\Framework64\v3.5\MSBuild.exe\nbamboo_jetpack_username_password=********\nbamboo_https_proxy=buildproxy01.ae.sda.corp.telstra.com:3129\nbamboo_buildNumber=25\nbamboo_planName=EDGE-O2A-Amdocs - EDGEO2ATosca_REG\nbamboo_shortPlanKey=ED\nbamboo_test_run_type=Regression\nbamboo_jetpack_feature_coverity_enabled=true\nbamboo_shortJobKey=JOB1\nbamboo_jetpack_newrelic_app_name=jetpack\nbamboo_buildTimeStamp=2018-09-21T01:30:14.550Z\nbamboo_jetpack_coverity_api_coordinator_host=lxappcord001.dev.in.telstra.com.au\nbamboo_buildResultKey=EOA-ED-JOB1-25\nbamboo_proxy_port=3129\nbamboo_buildPlanName=EDGE-O2A-Amdocs - EDGEO2ATosca_REG - Tosca Automation\nbamboo_user_01_name=bamboo-user01\nbamboo_coreos_hosts_num=3\nbamboo_user_02_password=********\nbamboo_jetpack_webapp_scan=https://repo1.ae.sda.corp.telstra.com/nexus/service/local/repositories/janus/content/scripts/edn-bamboo-jetpack-webapp-scan.sh\nbamboo_jetpack_srcclr_log_level=DEBUG\nbamboo_buildFailed=false\nbamboo_jetpack_srcclr_cert_password=********\nbamboo_capability_system_builder_command_Stage__add_release_and_label_to_comments=/srv/ci/tools/python/scripts/addReleasedArtifactsCommentAdditionInBuildStage.sh\nbamboo_jetpack_deploy=https://repo1.ae.sda.corp.telstra.com/nexus/service/local/repositories/janus/content/scripts/edn-bamboo-deploy.sh\nbamboo_agentWorkingDirectory=C:\Users\d832470\bamboo-agent-home\xml-data\build-dir\nbamboo_jetpack_user=********\nbamboo_jetpack_hamlet=https://repo1.ae.sda.corp.telstra.com/nexus/service/local/repositories/janus/content/scripts/edn-bamboo-hamlet.sh\nbamboo_aquasec_host_url=https://aquasec.ae.sda.corp.telstra.com\nbamboo_capability_system_builder_command_Release_Comment_and_Label=/srv/ci/tools/python/scripts/add_released_artifacts_comment.sh\nbamboo_capability_system_builder_node_NodeJS_6_9=/srv/ci/tools/node/bin/node\nbamboo_jetpack_password=********\nbamboo_jetpack_feature_srcclr_enabled=true\nbamboo_docker_registry_v1_host=docker-registry.ae.sda.corp.telstra.com\nbamboo_jetpack_api_scan=https://repo1.ae.sda.corp.telstra.com/nexus/service/local/repositories/janus/content/scripts/edn-bamboo-syntribos-scan.sh\nbamboo_plan_storageTag=plan-1111164340\nbamboo_jetpack_srcclr_key_password=********\nbamboo_user_02_name=bamboo-user02\nbamboo_capability_system_builder_msbuild_MSBuild_v4_0__64bit_=C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe\nbamboo_jetpack=\nbamboo_working_directory=C:\Users\d832470\bamboo-agent-home\xml-data\build-dir\EOA-ED-JOB1\nbamboo_tconnect_bitbucket_host=52.76.147.111\nbamboo_capability_system_jdk_JDK_1_8=C:\Program Files\Java\jre1.8.0_181\nbamboo_jetpack_srcclr_api_token_password=********\nbamboo_jetpack_sonarqube_api_token=********\n
+build	21-Sep-2018 01:30:15	
+build	21-Sep-2018 01:30:15	C:\Users\d832470\bamboo-agent-home\xml-data\build-dir\EOA-ED-JOB1>D:
+build	21-Sep-2018 01:30:15	
+build	21-Sep-2018 01:30:15	D:\>cd "D:\ToscaCI\Client" 
+build	21-Sep-2018 01:30:15	
+build	21-Sep-2018 01:30:15	D:\ToscaCI\Client>REM ToscaCIClient.exe -m distributed -r "D:\BambooResultsLog\Regression_results_DEX.xml" -c "D:\ToscaCI\Client\DEX_Regression.xml" -l "Robot" -p "Telstra" -x "False" -e "http://localhost:8888/DistributionServerService/ManagerService.svc" 
+build	21-Sep-2018 01:30:15	
+build	21-Sep-2018 01:30:15	D:\ToscaCI\Client>ToscaCIClient.exe -m distributed -r "D:\BambooResultsLog\Regression_results_DEX.xml" -c "D:\ToscaCI\Client\DEX_RegressionR1.xml" -l "Robot" -p "Telstra" -x "False" -e "http://localhost:8888/DistributionServerService/ManagerService.svc" 
+build	21-Sep-2018 01:30:15	*********************************************************
+build	21-Sep-2018 01:30:15	* Tricentis                                             *
+build	21-Sep-2018 01:30:15	* www.tricentis.com                                     *
+build	21-Sep-2018 01:30:15	* support@tricentis.com                                 *
+build	21-Sep-2018 01:30:15	*********************************************************
+build	21-Sep-2018 01:30:15	* TOSCACI-Client 11.1.0.1302                                *
+build	21-Sep-2018 01:30:15	*********************************************************
+build	21-Sep-2018 01:30:15	
+build	21-Sep-2018 01:30:15	
+build	21-Sep-2018 01:30:17	2018-09-21 11:30:17,713  - CI Client was registered successfully on DEX server.
+build	21-Sep-2018 01:30:17	 Client state:
+build	21-Sep-2018 01:30:17	---------------------------------------------------------
+build	21-Sep-2018 01:30:17	 Endpoints:
+build	21-Sep-2018 01:30:17	---------------------------------------------------------
+build	21-Sep-2018 01:30:17	2018-09-21 11:30:17,729  - http://localhost:8888/DistributionServerService/ManagerService.svc
+build	21-Sep-2018 01:30:17	
+build	21-Sep-2018 01:30:17	---------------------------------------------------------
+build	21-Sep-2018 01:30:17	2018-09-21 11:30:17,760  - Starting to poll Dex server for results. Timeout: 10800000. Interval: 60000
+build	21-Sep-2018 01:31:17	2018-09-21 11:31:17,805  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:32:17	2018-09-21 11:32:17,834  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:33:17	2018-09-21 11:33:17,848  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:34:17	2018-09-21 11:34:17,862  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:35:17	2018-09-21 11:35:17,876  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:36:17	2018-09-21 11:36:17,890  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:37:17	2018-09-21 11:37:17,904  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:38:17	2018-09-21 11:38:17,918  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:39:17	2018-09-21 11:39:17,932  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:40:17	2018-09-21 11:40:17,946  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:41:17	2018-09-21 11:41:17,960  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:42:17	2018-09-21 11:42:17,974  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:43:17	2018-09-21 11:43:17,988  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:44:18	2018-09-21 11:44:18,002  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:45:18	2018-09-21 11:45:18,016  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:46:18	2018-09-21 11:46:18,030  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:47:18	2018-09-21 11:47:18,044  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:48:18	2018-09-21 11:48:18,058  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:49:18	2018-09-21 11:49:18,072  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:50:18	2018-09-21 11:50:18,086  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:51:18	2018-09-21 11:51:18,100  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:52:18	2018-09-21 11:52:18,114  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:53:18	2018-09-21 11:53:18,128  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:54:18	2018-09-21 11:54:18,142  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:55:18	2018-09-21 11:55:18,156  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:56:18	2018-09-21 11:56:18,170  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:57:18	2018-09-21 11:57:18,184  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:58:18	2018-09-21 11:58:18,198  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 01:59:18	2018-09-21 11:59:18,212  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:00:18	2018-09-21 12:00:18,226  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:01:18	2018-09-21 12:01:18,240  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:02:18	2018-09-21 12:02:18,254  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:03:18	2018-09-21 12:03:18,268  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:04:18	2018-09-21 12:04:18,282  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:05:18	2018-09-21 12:05:18,295  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:06:18	2018-09-21 12:06:18,309  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:07:18	2018-09-21 12:07:18,323  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:08:18	2018-09-21 12:08:18,337  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:09:18	2018-09-21 12:09:18,351  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:10:18	2018-09-21 12:10:18,365  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:11:18	2018-09-21 12:11:18,379  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:12:18	2018-09-21 12:12:18,393  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:13:18	2018-09-21 12:13:18,423  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:14:18	2018-09-21 12:14:18,437  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:15:18	2018-09-21 12:15:18,451  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:16:18	2018-09-21 12:16:18,465  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:17:18	2018-09-21 12:17:18,479  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:18:18	2018-09-21 12:18:18,493  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:19:18	2018-09-21 12:19:18,522  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:20:18	2018-09-21 12:20:18,536  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:21:18	2018-09-21 12:21:18,566  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:22:18	2018-09-21 12:22:18,595  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:23:18	2018-09-21 12:23:18,609  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:24:18	2018-09-21 12:24:18,623  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:25:18	2018-09-21 12:25:18,637  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:26:18	2018-09-21 12:26:18,667  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:27:18	2018-09-21 12:27:18,696  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:28:18	2018-09-21 12:28:18,726  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:29:18	2018-09-21 12:29:18,756  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:30:18	2018-09-21 12:30:18,785  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:31:18	2018-09-21 12:31:18,799  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:32:18	2018-09-21 12:32:18,829  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:33:18	2018-09-21 12:33:18,858  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:34:18	2018-09-21 12:34:18,888  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:35:18	2018-09-21 12:35:18,917  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:36:18	2018-09-21 12:36:18,931  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:37:18	2018-09-21 12:37:18,945  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:38:18	2018-09-21 12:38:18,975  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:39:19	2018-09-21 12:39:19,004  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:40:19	2018-09-21 12:40:19,034  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:41:19	2018-09-21 12:41:19,064  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:42:19	2018-09-21 12:42:19,093  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:43:19	2018-09-21 12:43:19,107  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:44:19	2018-09-21 12:44:19,137  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:45:19	2018-09-21 12:45:19,166  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:46:19	2018-09-21 12:46:19,196  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:47:19	2018-09-21 12:47:19,225  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:48:19	2018-09-21 12:48:19,245  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:49:19	2018-09-21 12:49:19,255  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:50:19	2018-09-21 12:50:19,265  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:51:19	2018-09-21 12:51:19,275  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:52:19	2018-09-21 12:52:19,285  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:53:19	2018-09-21 12:53:19,302  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:54:19	2018-09-21 12:54:19,325  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:55:19	2018-09-21 12:55:19,348  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:56:19	2018-09-21 12:56:19,371  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:57:19	2018-09-21 12:57:19,394  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:58:19	2018-09-21 12:58:19,419  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 02:59:19	2018-09-21 12:59:19,446  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:00:19	2018-09-21 13:00:19,473  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:01:19	2018-09-21 13:01:19,485  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:02:19	2018-09-21 13:02:19,512  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:03:19	2018-09-21 13:03:19,540  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:04:19	2018-09-21 13:04:19,569  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:05:19	2018-09-21 13:05:19,598  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:06:19	2018-09-21 13:06:19,627  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:07:19	2018-09-21 13:07:19,655  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:08:19	2018-09-21 13:08:19,669  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:09:19	2018-09-21 13:09:19,682  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:10:19	2018-09-21 13:10:19,712  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:11:19	2018-09-21 13:11:19,725  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:12:19	2018-09-21 13:12:19,754  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:13:19	2018-09-21 13:13:19,784  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:14:19	2018-09-21 13:14:19,813  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:15:19	2018-09-21 13:15:19,874  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:16:19	2018-09-21 13:16:19,904  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:17:19	2018-09-21 13:17:19,933  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:18:19	2018-09-21 13:18:19,963  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:19:19	2018-09-21 13:19:19,992  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:20:20	2018-09-21 13:20:20,022  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:21:20	2018-09-21 13:21:20,051  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:22:20	2018-09-21 13:22:20,081  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:23:20	2018-09-21 13:23:20,111  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:24:20	2018-09-21 13:24:20,140  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:25:20	2018-09-21 13:25:20,170  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:26:20	2018-09-21 13:26:20,199  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:27:20	2018-09-21 13:27:20,229  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:28:20	2018-09-21 13:28:20,258  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:29:20	2018-09-21 13:29:20,272  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:30:20	2018-09-21 13:30:20,302  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:31:20	2018-09-21 13:31:20,332  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:32:20	2018-09-21 13:32:20,361  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:33:20	2018-09-21 13:33:20,391  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:34:20	2018-09-21 13:34:20,420  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:35:20	2018-09-21 13:35:20,450  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:36:20	2018-09-21 13:36:20,479  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:37:20	2018-09-21 13:37:20,509  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:38:20	2018-09-21 13:38:20,539  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:39:20	2018-09-21 13:39:20,568  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:40:20	2018-09-21 13:40:20,598  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:41:20	2018-09-21 13:41:20,627  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:42:20	2018-09-21 13:42:20,657  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:43:20	2018-09-21 13:43:20,686  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:44:20	2018-09-21 13:44:20,716  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:45:20	2018-09-21 13:45:20,746  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:46:20	2018-09-21 13:46:20,775  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:47:20	2018-09-21 13:47:20,805  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:48:20	2018-09-21 13:48:20,834  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:49:20	2018-09-21 13:49:20,864  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:50:20	2018-09-21 13:50:20,893  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:51:20	2018-09-21 13:51:20,923  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:52:20	2018-09-21 13:52:20,953  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:53:20	2018-09-21 13:53:20,967  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:54:20	2018-09-21 13:54:20,980  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:55:21	2018-09-21 13:55:21,026  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:56:21	2018-09-21 13:56:21,055  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:57:21	2018-09-21 13:57:21,085  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:58:21	2018-09-21 13:58:21,114  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 03:59:21	2018-09-21 13:59:21,144  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:00:21	2018-09-21 14:00:21,174  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:01:21	2018-09-21 14:01:21,203  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:02:21	2018-09-21 14:02:21,233  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:03:21	2018-09-21 14:03:21,262  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:04:21	2018-09-21 14:04:21,292  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:05:21	2018-09-21 14:05:21,321  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:06:21	2018-09-21 14:06:21,351  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:07:21	2018-09-21 14:07:21,380  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:08:21	2018-09-21 14:08:21,410  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:09:21	2018-09-21 14:09:21,440  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:10:21	2018-09-21 14:10:21,469  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:11:21	2018-09-21 14:11:21,499  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:12:21	2018-09-21 14:12:21,528  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:13:21	2018-09-21 14:13:21,574  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:14:21	2018-09-21 14:14:21,603  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:15:21	2018-09-21 14:15:21,633  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:16:21	2018-09-21 14:16:21,662  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:17:21	2018-09-21 14:17:21,692  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:18:21	2018-09-21 14:18:21,721  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:19:21	2018-09-21 14:19:21,751  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:20:21	2018-09-21 14:20:21,780  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:21:21	2018-09-21 14:21:21,810  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:22:21	2018-09-21 14:22:21,840  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:23:21	2018-09-21 14:23:21,869  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:24:21	2018-09-21 14:24:21,899  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:25:21	2018-09-21 14:25:21,928  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:26:21	2018-09-21 14:26:21,958  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:27:21	2018-09-21 14:27:21,987  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:28:22	2018-09-21 14:28:22,017  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:29:22	2018-09-21 14:29:22,078  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:30:22	2018-09-21 14:30:22,107  - Polled Dex Server. Execution is not yet finished.
+build	21-Sep-2018 04:30:22	2018-09-21 14:30:22,107  - CiClientTimeout elapsed. Stop polling DEX Server for results.
+build	21-Sep-2018 04:30:22	2018-09-21 14:30:22,107  - Timeout exceeded. Cancelling Test Event
+build	21-Sep-2018 04:30:22	
+build	21-Sep-2018 04:30:22	D:\ToscaCI\Client>C:
+build	21-Sep-2018 04:30:22	
+build	21-Sep-2018 04:30:22	C:\Users\d832470\bamboo-agent-home\xml-data\build-dir\EOA-ED-JOB1>cd "C:\Program Files (x86)\TRICENTIS\Tosca Testsuite" 
+build	21-Sep-2018 04:30:22	
+build	21-Sep-2018 04:30:22	C:\Program Files (x86)\TRICENTIS\Tosca Testsuite>TCShell -workspace "C:\Tosca_Projects\Tosca_Workspaces\Edge\Edge.tws" -executionmode -login "Robot" "Telstra" "D:\Reports\RegressionReport.tcs" 
+build	21-Sep-2018 04:30:28	Checking License ... License found!
+build	21-Sep-2018 04:30:32	Update all: Connecting to Common Repository (timeout in 5 seconds) ... 
+build	21-Sep-2018 04:30:32	Update all: Connecting to Common Repository (timeout in 5 seconds) ... 
+build	21-Sep-2018 04:30:32	Update all: Connecting to Common Repository succeeded
+build	21-Sep-2018 04:30:32	Update all: Connecting to Common Repository succeeded
+build	21-Sep-2018 04:30:33	Update All: Cluster Info: Synchronizing clustertree 44%
+build	21-Sep-2018 04:30:34	BeforeTeamTaskCommit
+build	21-Sep-2018 04:30:34	Update all finalizing ... 
+build	21-Sep-2018 04:30:34	Update all finished
+build	21-Sep-2018 04:30:34	Print Report ... DetailedReports
+simple	21-Sep-2018 05:01:06	 _   _  ____  _  _
+simple	21-Sep-2018 05:01:06	( )_( )(  _ \( )/ )
+simple	21-Sep-2018 05:01:06	 ) _ (  ) _ < )  ( 
+simple	21-Sep-2018 05:01:06	(_) (_)(____/(_)\_) 
+simple	21-Sep-2018 05:01:06	This build has been killed by the HBK (Hung Build Killer). Either Bamboo has detected the build has hung or it has been manually stopped.
+simple	21-Sep-2018 05:01:06	Attempting to generate stack trace and terminate spawned sub-processes of process id: 6292
+simple	21-Sep-2018 05:01:06	Found related process: pid: 11488 ppid: 6292 pgid: null %cpu:  %mem:  cmd: cmd.exe
+simple	21-Sep-2018 05:01:06	Found related process: pid: 14488 ppid: 11488 pgid: null %cpu:  %mem:  cmd: TCShell
+simple	21-Sep-2018 05:01:06	getStackTraceAndKillRelatedProcesses for 2 processes
+simple	21-Sep-2018 05:01:11	Killing: 14488
+simple	21-Sep-2018 05:01:11	Executing taskkill /PID 14488
+simple	21-Sep-2018 05:01:12	Killing: 11488
+simple	21-Sep-2018 05:01:12	Executing taskkill /PID 11488
+simple	21-Sep-2018 05:01:18	Killing: 14488
+simple	21-Sep-2018 05:01:18	Executing taskkill /F /PID 14488
+simple	21-Sep-2018 05:01:18	Killing: 11488
+simple	21-Sep-2018 05:01:18	Executing taskkill /F /PID 11488
+simple	21-Sep-2018 05:01:19	 _   _  ____  _  _
+simple	21-Sep-2018 05:01:19	( )_( )(  _ \( )/ )
+simple	21-Sep-2018 05:01:19	 ) _ (  ) _ < )  ( 
+simple	21-Sep-2018 05:01:19	(_) (_)(____/(_)\_) 
+simple	21-Sep-2018 05:01:19	This build has been killed by the HBK (Hung Build Killer). Either Bamboo has detected the build has hung or it has been manually stopped.
+simple	21-Sep-2018 05:01:19	Has finished generating stack trace and terminating spawned sub-processes of process id: 6292
+simple	21-Sep-2018 05:01:19	Failing task since return code of [C:\Users\d832470\bamboo-agent-home\temp\EOA-ED-JOB1-25-ScriptBuildTask-5802593364609565712.bat] was 1 while expected 0
+simple	21-Sep-2018 05:01:19	Finished task 'Start Tosca Execution' with result: Failed
+simple	21-Sep-2018 05:01:19	Running post build plugin 'Docker Container Cleanup'
+simple	21-Sep-2018 05:01:19	Running post build plugin 'NCover Results Collector'
+simple	21-Sep-2018 05:01:19	Running post build plugin 'Cucumber Artifact Copier'
+simple	21-Sep-2018 05:01:19	Running post build plugin 'Clover Results Collector'
+simple	21-Sep-2018 05:01:19	Running post build plugin 'Sauce OnDemand Post Runner'
+simple	21-Sep-2018 05:01:19	Running post build plugin 'npm Cache Cleanup'
+simple	21-Sep-2018 05:01:19	Running post build plugin 'Artifact Copier'
+simple	21-Sep-2018 05:01:19	Finalising the build...
+simple	21-Sep-2018 05:01:19	Stopping timer.
+simple	21-Sep-2018 05:01:19	Build EOA-ED-JOB1-25 completed.
+simple	21-Sep-2018 05:01:19	Running on server: post build plugin 'NCover Results Collector'
+simple	21-Sep-2018 05:01:19	Running on server: post build plugin 'Build Hanging Detection Configuration'
+simple	21-Sep-2018 05:01:19	Running on server: post build plugin 'Cucumber JIRA updater'
+simple	21-Sep-2018 05:01:19	Total issues created:0
+simple	21-Sep-2018 05:01:19	Running on server: post build plugin 'Clover Delta Calculator'
+simple	21-Sep-2018 05:01:19	Running on server: post build plugin 'Maven Dependencies Postprocessor'
+simple	21-Sep-2018 05:01:19	All post build plugins have finished
+simple	21-Sep-2018 05:01:19	Generating build results summary...
+simple	21-Sep-2018 05:01:19	Saving build results to disk...
+simple	21-Sep-2018 05:01:19	Logging substituted variables...
+simple	21-Sep-2018 05:01:19	Indexing build results...
+simple	21-Sep-2018 05:01:19	Finished building EOA-ED-JOB1-25.
