@@ -1,3 +1,78 @@
+
+Hi All,
+
+Please find below steps to connect to multiple Telstra Env DBs.
+1.	Open putty
+2.	Enter Host as “lxmgt4062.dc.corp.telstra.com” Port 22
+3.	Go to Tunnels
+4.	Source port: 2001
+Destination: lxapp5973.dc.corp.telstra.com:22 (This destination is UI host of connected dev)
+5.	Go back to Session
+6.	Enter “Jumphost” in Saved sessions
+7.	Click on Save
+8.	Click on Open
+9.	Enter username as d83247j password Aug@2018 (If didn’t work for the first time then please avoid trying again)
+(It will be good if you have your own secondary user)
+10.	Write “cat” command and press Enter (This will keep session enabled)
+11.	Write click on putty window (top bar)
+12.	Select “New Session”
+13.	Enter Host as “localhost” Port 2001 (same as defined in Jumphost tunnel)
+14.	Go to Tunnels
+15.	Source port: 1521
+Destination: lxdb4326.dc.corp.telstra.com:1521
+16.	Go back to Session
+17.	Enter “localhost_Staging2” in Saved sessions
+18.	Click on Save
+19.	Click on Open
+20.	Enter username/password as “sfo-user”
+21.	Write “cat” command and press Enter (This will keep session enabled)
+
+Above steps will allow us to access Connected Dev AFF DB on Telstra network. While accessing DB we need to make sure in sql developer we are entering host as “localhost” and port as “1521” (SID as SFO1AS for ConnectedDev) DB Username: AFFUSER password: Welcome123456
+
+Now we want to have tunneling for Pre-SIT or any other Env with the same Jumphost session:
+Below needs to be done for that:
+1.	In above steps we already have saved Jumphost
+2.	Go to the putty window where Jumphost session is open (lxmg4062)
+3.	Right click on top and select “Change Settings” option
+4.	Now we already have one tunnel with Port 2001. So we will create another tunnel with some other port (say 2002)
+5.	Source Port: 2002
+Destination: lxapp5967.dc.corp.telstra.com:22
+6.	Click ok
+7.	Now we are again on putty window for Jumphost (lxmgt4062)
+8.	Write click on putty window (top bar)
+9.	Select “New Session”
+10.	Enter Host as “localhost” Port 2002 (same as defined in Jumphost tunnel for other env)
+11.	Go to Tunnels
+12.	Source port: 1522
+Destination: edgeb2bappstg1.cvyl8ebkp9px.ap-southeast-2.rds.amazonaws.com:1521
+13.	Go back to Session
+14.	Enter “localhost_preSIT” in Saved sessions
+15.	Click on Save
+16.	Click on Open
+17.	Enter username/password as sfo-user
+18.	Write “cat” command and press Enter (This will keep session enabled)
+
+Above steps will allow us to access Pre-SIT AFF DB on Telstra network. While accessing DB we need to make sure in sql developer we are entering host as “localhost” and port as “1522” (SID as ORCL for Pre-SIT) DB Username: AFFUSER password: Welcome12345
+
+For connecting to 2 Envs with same port we will have 3 putty windows open.
+
+These many steps is one time activity if you save the sessions properly.
+
+Here is the wiki link where you will find all Telstra env details:
+https://telstra-customerplatforms.atlassian.net/wiki/spaces/B2B/pages/265060577/AMDOCS+Environment+Details
+
+Please let me know if you face any issue. Happy to help you 
+
+
+Thanks & Regards,
+Nayana Ahire
+  Switch off monitor as you go |  Recycle always |   Save Paper - Save Trees 
+
+
+
+
+
+
 https://wiki.ae.sda.corp.telstra.com/display/AE/How+to+dedicate+your+private+Bamboo+agent+to+Plan+or+Deployment+Project
 HTTPS://SUPPORT.TRICENTIS.COM/COMMUNITY/ARTICLE.DO?NUMBER=KB0013147
 /Amdocs_Connected Dev/Regression/Sanity/SanityFlows/Execution/ExecutionLists/R1-Order Modify/ActualLog/R1 Manage Order Request/R1 MOD/Communicate/Send
