@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16" ?>
+<testConfiguration>
+	<surrogateIds>
+        <surrogateId>39e6bd9c-6319-1232-a458-865c43cadb49</surrogateId>
+		<surrogateId>39e6bd9c-6319-f223-8e26-b94b51e1bef2</surrogateId>
+    </surrogateIds>
+    <ExecutionTypes>
+        <ExecutionType>Sample</ExecutionType>
+    </ExecutionTypes>
+ </testConfiguration>
+ 
