@@ -1,15 +1,5 @@
-build	28-Sep-2018 18:24:58	2018-09-29 04:24:58,056  - Polled Dex Server. Execution is finished.
-build	28-Sep-2018 18:24:58	2018-09-29 04:24:58,056  - Creating junit test result...
-build	28-Sep-2018 18:24:58	2018-09-29 04:24:58,415  - Test execution has been finished.
-build	28-Sep-2018 18:24:58	2018-09-29 04:24:58,415  - Result was printed to >D:\BambooResultsLog\Sanity_results_DEX.xml<
-build	28-Sep-2018 18:24:58	
-build	28-Sep-2018 18:24:58	D:\ToscaCI\Client>C:
-build	28-Sep-2018 18:24:58	
-build	28-Sep-2018 18:24:58	C:\Users\d832470\bamboo-agent-home\xml-data\build-dir\EOA-EDO2ATOS-JOB1>cd "C:\Program Files (x86)\TRICENTIS\Tosca Testsuite" 
-build	28-Sep-2018 18:24:58	
-build	28-Sep-2018 18:24:58	C:\Program Files (x86)\TRICENTIS\Tosca Testsuite>TCShell -workspace "C:\Tosca_Projects\Tosca_Workspaces\Edge\Edge.tws" -executionmode -login "Robot" "Telstra" "D:\Reports\GenerateReport.tcs" 
-build	28-Sep-2018 18:25:05	Checking License ... License found!
-build	28-Sep-2018 18:25:11	Workspace locked by another process 'W00B3616CE1257.796:d832470'
+L1522=edgeb2bappstg1.cvyl8ebkp9px.ap-southeast-2.rds.amazonaws.com:1521
+L8443=lxapp5967.dc.corp.telstra.com:8443
 
 
 
