@@ -1,0 +1,2486 @@
+{
+    "version": 1,
+    "systemId": "CloudSense",
+    "externalId": "18.15_CWP",
+    "requestedCompletionDate": "2017-10-24T06:08-11:00",
+    "orderSpecificationCode": "CloudSense_CPO",
+    "orderCharacteristic": [
+        {
+            "value": "2018-03-14T04:45TZD",
+            "name": "orderCreationDate"
+        },
+        {
+            "value": "Yes",
+            "name": "Project_Manager_Required"
+        },
+        {
+            "value": "18.15_CWP",
+            "name": "Project_ID"
+        },
+        {
+            "value": "Simplex",
+            "name": "orderComplexity"
+        },
+        {
+            "value": "Telstra",
+            "name": "customerBusinessUnit"
+        },
+        {
+            "value": "AFFSuper",
+            "name": "Project_Manager_ID"
+        },
+        {
+            "value": 9696969696,
+            "name": "Project_Manager_phoneNumber"
+        },
+        {
+            "value": "john@123.com",
+            "name": "Project_Manager_emailId"
+        },
+        {
+            "value": 123456,
+            "name": "SalesUserId"
+        },
+        {
+            "value": "John",
+            "name": "SalesUserFirstName"
+        },
+        {
+            "value": "Mark",
+            "name": "SalesUserLastName"
+        },
+        {
+            "value": 5689712342,
+            "name": "SalesUserContactNumber"
+        },
+        {
+            "value": "ABC@123.com",
+            "name": "SalesUserEmailId"
+        },
+        {
+            "value": "test123",
+            "name": "TBD"
+        },
+        {
+            "value": "SN_Tenancy_FN",
+            "name": "TenancyAdminFirstName"
+        },
+        {
+            "value": "SN_Tenancy_LN",
+            "name": "TenancyAdminLastName"
+        },
+        {
+            "value": 423564535,
+            "name": "TenancyAdminPhoneNumber"
+        },
+        {
+            "value": "SN_Tenancy_FN@test.com",
+            "name": "TenancyAdminEmailId"
+        }
+    ],
+    "relatedParty": [{
+        "id": "Customer_18.15_CWP",
+        "name": "Australia Postal Corporation",
+        "type": "Enterprise",
+        "role": "customer",
+        "href": "http://serverlocation:port/partyManagement/customer/345221"
+    }],
+    "orderItem": [
+        {
+            "id": "OLI1-RT5F-YU67-9HJ84342_1",
+            "version": 1,
+            "action": "Create",
+            "requestedCompletionDate": "2017-10-23T06:32-11:00",
+            "billingAccount": [{
+                "id": 875746,
+                "accountType": "Billing Account"
+            }],
+            "product": {
+                "id": "IPVPN_Product_Instance_ID101_18.15_CWP",
+                "action": "add",
+                "productSpecification": {"code": "DMCAT_ProductSpecification_000028"},
+                "productCharacteristic": [
+                    {
+                        "name": "CustomerPreferredName",
+                        "value": "Name"
+                    },
+                    {
+                        "name": "MulticastEnabled",
+                        "value": false
+                    }
+                ],
+                "productRelationship": [
+                    {
+                        "type": "contains",
+                        "product": {
+                            "id": "IPWireless_Product_Instance_ID101_18.15_CWP",
+                            "action": "add",
+                            "productSpecification": {"code": "DMCAT_ProductSpecification_000018"},
+                            "productCharacteristic": [
+                                {
+                                    "name": "RequiredPoolTypes",
+                                    "value": "Both"
+                                },
+                                {
+                                    "name": "APNtype",
+                                    "value": "Shared"
+                                },
+                                {
+                                    "name": "ManagedRadiusProductInstanceID",
+                                    "value": "ManagedRadius_Product_Instance_ID101_18.15_CWP"
+                                },
+                                {
+                                    "name": "GlobalRoaming",
+                                    "value": false
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "contains",
+                        "product": {
+                            "id": "ManagedRadius_Product_Instance_ID101_18.15_CWP",
+                            "action": "add",
+                            "productSpecification": {"code": "DMCAT_ProductSpecification_000053"},
+                            "productCharacteristic": [
+                                {
+                                    "name": "AuthenticationType",
+                                    "value": "Simple Authentication"
+                                },
+                                {
+                                    "name": "RADIUSServerType",
+                                    "value": "Basic Telstra Managed RADIUS"
+                                },
+                                {
+                                    "name": "RadiusUsers",
+                                    "value": false
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "OLI3-RT5F-YU67-9HJ816546_2",
+            "version": 1,
+            "action": "Create",
+            "requestedCompletionDate": "2017-10-23T06:32-11:00",
+            "billingAccount": [{
+                "id": 875746,
+                "accountType": "Billing Account"
+            }],
+            "product": {
+                "id": "FibreAccess_Instance_ID101_18.15_CWP",
+                "action": "add",
+                "productSpecification": {"code": "DMCAT_ProductSpecification_000027"},
+                "productCharacteristic": [
+                    {
+                        "name": "Bandwidth",
+                        "value": "2 Mbps"
+                    },
+                    {
+                        "name": "ClassofService",
+                        "value": "Data Transfer"
+                    },
+                    {
+                        "name": "IPVPNPortProductInstanceID",
+                        "value": "Port_Instance_ID101_18.15_CWP"
+                    },
+                    {
+                        "name": "NBNTechnologyType",
+                        "value": "Fibre to the Node"
+                    },
+                    {
+                        "name": "TC1NBNOrderableSpeed",
+                        "value": 0
+                    },
+                    {
+                        "name": "TC2NBNOrderableSpeed",
+                        "value": "2M/2M"
+                    },
+                    {
+                        "name": "TC4NBNOrderableSpeed",
+                        "value": "25M/5M"
+                    },
+                    {
+                        "name": "TrafficClass",
+                        "value": "TC2"
+                    },
+                    {
+                        "name": "CustomerPreferredName",
+                        "value": "Name"
+                    },
+                    {
+                        "name": "AccessRole",
+                        "value": "Primary"
+                    },
+                    {
+                        "name": "IPAccessConfiguration",
+                        "value": "Single Uplink"
+                    },
+                    {
+                        "name": "MulticastEnabled",
+                        "value": false
+                    },
+                    {
+                        "name": "AccessTechnology",
+                        "value": "Telstra Fibre Access"
+                    }
+                ],
+                "place": [{
+                    "role": "Installation",
+                    "address": {
+                        "id": "ADBoR_Melbourne",
+                        "type": "Postal",
+                        "street1": "Brevoort Place",
+                        "city": "Ellerslie",
+                        "stateOrProvince": "VIC",
+                        "postCode": 3000,
+                        "country": "Australia",
+                        "buildingName": "Ovolo",
+                        "streetType": "Lane",
+                        "streetName": "Eagle Street",
+                        "streetNr": 225,
+                        "streetSuffix": "St",
+                        "locality": "Walker",
+                        "apartment": 121,
+                        "floor": 1,
+                        "room": 121,
+                        "geocode": {
+                            "latitude": -88.506381,
+                            "longitude": -50.25214
+                        }
+                    },
+                    "contact": [
+                        {
+                            "id": "Salesforce_Contact_Id_Site Contact",
+                            "gender": "male",
+                            "type": "Site Contact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_Out of Ofc Hrs Contact",
+                            "gender": "male",
+                            "type": "Out of Ofc Hrs",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_customerProjectContact",
+                            "gender": "male",
+                            "type": "customerProjectContact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_Project Contact",
+                            "gender": "male",
+                            "type": "Project Contact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4324421,
+                            "gender": "male",
+                            "type": "customerTechnicalContact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        }
+                    ]
+                }]
+            }
+        },
+        {
+            "id": "OLI4-RT5F-YU67-9HJ83213_3",
+            "version": 1,
+            "action": "Create",
+            "requestedCompletionDate": "2017-10-23T06:32-11:00",
+            "billingAccount": [{
+                "id": 875746,
+                "accountType": "Billing Account"
+            }],
+            "product": {
+                "id": "Port_Instance_ID101_18.15_CWP",
+                "action": "add",
+                "productSpecification": {"code": "DMCAT_ProductSpecification_000030"},
+                "productCharacteristic": [
+                    {
+                        "name": "TC4NBNOrderableSpeed",
+                        "value": "128k/128k"
+                    },
+                    {
+                        "name": "AccessTechnology",
+                        "value": "Telstra Fibre Access"
+                    },
+                    {
+                        "name": "Bandwidth",
+                        "value": "128k/128k"
+                    },
+                    {
+                        "name": "ClassofService",
+                        "value": "DCOS"
+                    },
+                    {
+                        "name": "CustomerPreferredName",
+                        "value": "Name"
+                    },
+                    {
+                        "name": "IPVPNProductInstanceID",
+                        "value": "IPVPN_Product_Instance_ID101_18.15_CWP"
+                    },
+                    {
+                        "name": "MulticastEnabled",
+                        "value": false
+                    },
+                    {
+                        "name": "PortRole",
+                        "value": "Primary"
+                    },
+                    {
+                        "name": "TC1NBNOrderableSpeed",
+                        "value": 0
+                    },
+                    {
+                        "name": "TC2NBNOrderableSpeed",
+                        "value": "2M/1M"
+                    },
+                    {
+                        "name": "TrafficClass",
+                        "value": "TC2"
+                    }
+                ],
+                "place": [{
+                    "role": "Installation",
+                    "address": {
+                        "id": "ADBoR_Melbourne",
+                        "type": "Postal",
+                        "street1": "Brevoort Place",
+                        "city": "Ellerslie",
+                        "stateOrProvince": "VIC",
+                        "postCode": 3000,
+                        "country": "Australia",
+                        "buildingName": "Ovolo",
+                        "streetType": "Lane",
+                        "streetName": "Eagle Street",
+                        "streetNr": 225,
+                        "streetSuffix": "St",
+                        "locality": "Walker",
+                        "apartment": 121,
+                        "floor": 1,
+                        "room": 121,
+                        "geocode": {
+                            "latitude": -88.506381,
+                            "longitude": -50.25214
+                        }
+                    },
+                    "contact": [
+                        {
+                            "id": "Salesforce_Contact_Id_Site Contact",
+                            "gender": "male",
+                            "type": "Site Contact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_Out of Ofc Hrs Contact",
+                            "gender": "male",
+                            "type": "Out of Ofc Hrs",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_customerProjectContact",
+                            "gender": "male",
+                            "type": "customerProjectContact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_Project Contact",
+                            "gender": "male",
+                            "type": "Project Contact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4324421,
+                            "gender": "male",
+                            "type": "customerTechnicalContact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        }
+                    ]
+                }]
+            }
+        },
+        {
+            "id": "OLI2-RT5F-YU67-9HJ84342_4",
+            "version": 1,
+            "action": "Create",
+            "requestedCompletionDate": "2017-10-23T06:32-11:00",
+            "billingAccount": [{
+                "id": 875746,
+                "accountType": "Billing Account"
+            }],
+            "orderItemCharacteristic": [
+                {
+                    "name": "CPEDeliveryDate",
+                    "value": "2017-10-30T06:08-11:00"
+                },
+                {
+                    "name": "AppointmentNotes",
+                    "value": "Technician to be Assigned"
+                }
+            ],
+            "appointment": {
+                "id": "Appt_18.15_CWP",
+                "category": "Telstra",
+                "startDate": "2019-12-19T16:42:23",
+                "endDate": "2019-12-19T00:00:00"
+            },
+            "product": {
+                "id": "Device_Instance_ID101_18.15_CWP",
+                "action": "add",
+                "productSpecification": {"code": "DMCAT_ProductSpecification_000073"},
+                "productCharacteristic": [
+                    {
+                        "name": "BillofMaterialID",
+                        "value": "73f5358d-d0c1-409c-9c63-bdf502512a84"
+                    },
+                    {
+                        "name": "CustomerPreferredName",
+                        "value": "Name"
+                    },
+                    {
+                        "name": "MobileBackupEnabled",
+                        "value": false
+                    },
+                    {
+                        "name": "PrimaryAccessProductInstanceID",
+                        "value": "FibreAccess_Instance_ID101_18.15_CWP"
+                    },
+                    {
+                        "name": "RedundantAccessProductInstanceID",
+                        "value": "RedundantAccessProductInstance_ID101_18.15_CWP"
+                    },
+                    {
+                        "name": "RouterModel",
+                        "value": "Cisco C1117"
+                    },
+                    {
+                        "name": "Vendor",
+                        "value": "CISCO"
+                    },
+                    {
+                        "name": "ShippingRequired",
+                        "value": true
+                    },
+                    {
+                        "name": "CustomerLANIPAddressSubnetMask",
+                        "value": ""
+                    },
+                    {
+                        "name": "MobileAccess",
+                        "value": false
+                    },
+                    {
+                        "name": "ReceivedSignalStrengthIndication",
+                        "value": true
+                    },
+                    {
+                        "name": "ExternalAntennaRequired",
+                        "value": true
+                    }
+                ],
+                "place": [{
+                    "role": "Installation",
+                    "address": {
+                        "id": "ADBoR_Melbourne",
+                        "type": "Postal",
+                        "street1": "Brevoort Place",
+                        "city": "Ellerslie",
+                        "stateOrProvince": "VIC",
+                        "postCode": 3000,
+                        "country": "Australia",
+                        "buildingName": "Ovolo",
+                        "streetType": "Lane",
+                        "streetName": "Eagle Street",
+                        "streetNr": 225,
+                        "streetSuffix": "St",
+                        "locality": "Walker",
+                        "apartment": 121,
+                        "floor": 1,
+                        "room": 121,
+                        "geocode": {
+                            "latitude": -88.506381,
+                            "longitude": -50.25214
+                        }
+                    },
+                    "contact": [
+                        {
+                            "id": "Salesforce_Contact_Id_Site Contact",
+                            "gender": "male",
+                            "type": "Site Contact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_Out of Ofc Hrs Contact",
+                            "gender": "male",
+                            "type": "Out of Ofc Hrs",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_customerProjectContact",
+                            "gender": "male",
+                            "type": "customerProjectContact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_Project Contact",
+                            "gender": "male",
+                            "type": "Project Contact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4324421,
+                            "gender": "male",
+                            "type": "customerTechnicalContact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        }
+                    ]
+                }],
+                "productRelationship": [
+                    {
+                        "type": "contains",
+                        "product": {
+                            "id": "Maintenance__instance_ID01_18.15_CWP",
+                            "action": "add",
+                            "productSpecification": {"code": "DMCAT_ProductSpecification_000076"},
+                            "productCharacteristic": [
+                                {
+                                    "name": "MaintenanceBillofMaterial ID",
+                                    "value": ""
+                                },
+                                {
+                                    "name": "HardwareReplacementProvider",
+                                    "value": "CISCO"
+                                },
+                                {
+                                    "name": "MaintainerOnSite",
+                                    "value": "Telstra"
+                                },
+                                {
+                                    "name": "MaintenanceCoverageHours",
+                                    "value": "8x5xNBD"
+                                },
+                                {
+                                    "name": "VendorSupportOnSite",
+                                    "value": false
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "contains",
+                        "product": {
+                            "id": "Management_Instance_ID1_18.15_CWP",
+                            "action": "add",
+                            "productSpecification": {"code": "DMCAT_ProductSpecification_000077"},
+                            "productCharacteristic": [
+                                {
+                                    "name": "ManagementType",
+                                    "value": "Proactive"
+                                },
+                                {
+                                    "name": "ManagementServiceHours",
+                                    "value": "EBH7"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "OLI2-RT5F-YU67-9HJ84342_11",
+            "version": 1,
+            "action": "Create",
+            "requestedCompletionDate": "2017-10-23T06:32-11:00",
+            "billingAccount": [{
+                "id": 875746,
+                "accountType": "Billing Account"
+            }],
+            "orderItemCharacteristic": [{
+                "name": "CPEDeliveryDate",
+                "value": "2017-10-30T06:08-11:00"
+            }],
+            "appointment": {
+                "id": "Appt_18.15_CWP",
+                "category": "Telstra",
+                "startDate": "2019-12-19T16:42:23",
+                "endDate": "2019-12-19T00:00:00"
+            },
+            "product": {
+                "id": "Switch_Instance-Meraki_ID101_18.15_CWP",
+                "action": "add",
+                "productSpecification": {"code": "DMCAT_ProductSpecification_000092"},
+                "productCharacteristic": [
+                    {
+                        "name": "CustomerPreferredName",
+                        "value": ""
+                    },
+                    {
+                        "name": "Vendor",
+                        "value": "MERAKI"
+                    },
+                    {
+                        "name": "SwitchModel",
+                        "value": "Meraki MS120-8 FP"
+                    },
+                    {
+                        "name": "BillofMaterialID",
+                        "value": ""
+                    },
+                    {
+                        "name": "Country",
+                        "value": "Australia"
+                    },
+                    {
+                        "name": "RouterProductInstanceID",
+                        "value": "Device_Instance_ID101_18.15_CWP"
+                    },
+                    {
+                        "name": "ShippingRequired",
+                        "value": true
+                    }
+                ],
+                "place": [{
+                    "role": "Installation",
+                    "address": {
+                        "id": "ADBoR_Melbourne",
+                        "type": "Postal",
+                        "street1": "Brevoort Place",
+                        "city": "Ellerslie",
+                        "stateOrProvince": "Victoria",
+                        "postCode": 3000,
+                        "country": "Australia",
+                        "buildingName": "Ovolo",
+                        "streetType": "Lane",
+                        "streetName": "Eagle Street",
+                        "streetNr": 225,
+                        "streetSuffix": "St",
+                        "locality": "Walker",
+                        "apartment": 121,
+                        "floor": 1,
+                        "room": 121,
+                        "geocode": {
+                            "latitude": -88.506381,
+                            "longitude": -50.25214
+                        }
+                    },
+                    "contact": [
+                        {
+                            "id": "Salesforce_Contact_Id_Site Contact",
+                            "gender": "male",
+                            "type": "Site Contact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_Out of Ofc Hrs Contact",
+                            "gender": "male",
+                            "type": "Out of Ofc Hrs",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_customerProjectContact",
+                            "gender": "male",
+                            "type": "customerProjectContact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_Project Contact",
+                            "gender": "male",
+                            "type": "Project Contact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4324421,
+                            "gender": "male",
+                            "type": "customerTechnicalContact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        }
+                    ]
+                }],
+                "productRelationship": [
+                    {
+                        "type": "contains",
+                        "product": {
+                            "id": "Maintenance__instance3_ID01_18.15_CWP",
+                            "action": "add",
+                            "productSpecification": {"code": "DMCAT_ProductSpecification_000076"},
+                            "productCharacteristic": [
+                                {
+                                    "name": "MaintenanceBillofMaterial ID",
+                                    "value": ""
+                                },
+                                {
+                                    "name": "HardwareReplacementProvider",
+                                    "value": "MERAKI"
+                                },
+                                {
+                                    "name": "MaintainerOnSite",
+                                    "value": "Telstra"
+                                },
+                                {
+                                    "name": "MaintenanceCoverageHours",
+                                    "value": "8x5xNBD"
+                                },
+                                {
+                                    "name": "VendorSupportOnSite",
+                                    "value": false
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "contains",
+                        "product": {
+                            "id": "Management_Instance3_ID1_18.15_CWP",
+                            "action": "add",
+                            "productSpecification": {"code": "DMCAT_ProductSpecification_000077"},
+                            "productCharacteristic": [
+                                {
+                                    "name": "ManagementType",
+                                    "value": "Proactive"
+                                },
+                                {
+                                    "name": "ManagementServiceHours",
+                                    "value": "EBH7"
+                                },
+                                {
+                                    "name": "AccessRole",
+                                    "value": "Primary"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "OLI2-RT5F-YU67-9HJ84342_1020",
+            "version": 1,
+            "action": "Create",
+            "requestedCompletionDate": "2017-10-23T06:32-11:00",
+            "billingAccount": [{
+                "id": 875746,
+                "accountType": "Billing Account"
+            }],
+            "orderItemCharacteristic": [{
+                "name": "CPEDeliveryDate",
+                "value": "2017-10-30T06:08-11:00"
+            }],
+            "product": {
+                "id": "Wifi_ID101_18.15_CWP",
+                "action": "add",
+                "productSpecification": {"code": "DMCAT_ProductSpecification_000169"},
+                "productCharacteristic": [
+                    {
+                        "name": "AccessPointModel",
+                        "value": "Meraki MR33 Cloud Managed AP"
+                    },
+                    {
+                        "name": "RouterProductInstanceID",
+                        "value": "Device_Instance_ID101_18.15_CWP"
+                    },
+                    {
+                        "name": "BillofMaterialID",
+                        "value": "c32e9054-96fb-4e55-b2b9-a547c5060a76"
+                    },
+                    {
+                        "name": "Quantity",
+                        "value": 10
+                    },
+                    {
+                        "name": "ShippingRequired",
+                        "value": true
+                    },
+                    {
+                        "name": "NumberofSSIDs",
+                        "value": 1
+                    },
+                    {
+                        "name": "CustomisedService",
+                        "value": true
+                    },
+                    {
+                        "name": "CustomerPreferredName",
+                        "value": ""
+                    }
+                ],
+                "place": [{
+                    "role": "Installation",
+                    "address": {
+                        "id": "ADBoR_Melbourne",
+                        "type": "Postal",
+                        "street1": "Brevoort Place",
+                        "city": "Ellerslie",
+                        "stateOrProvince": "Victoria",
+                        "postCode": 3000,
+                        "country": "Australia",
+                        "buildingName": "Ovolo",
+                        "streetType": "Lane",
+                        "streetName": "Eagle Street",
+                        "streetNr": 225,
+                        "streetSuffix": "St",
+                        "locality": "Walker",
+                        "apartment": 121,
+                        "floor": 1,
+                        "room": 121,
+                        "geocode": {
+                            "latitude": -88.506381,
+                            "longitude": -50.25214
+                        }
+                    },
+                    "contact": [
+                        {
+                            "id": "Salesforce_Contact_Id_Site Contact",
+                            "gender": "male",
+                            "type": "Site Contact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_Out of Ofc Hrs Contact",
+                            "gender": "male",
+                            "type": "Out of Ofc Hrs",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_customerProjectContact",
+                            "gender": "male",
+                            "type": "customerProjectContact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_Project Contact",
+                            "gender": "male",
+                            "type": "Project Contact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4324421,
+                            "gender": "male",
+                            "type": "customerTechnicalContact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        }
+                    ]
+                }]
+            }
+        },
+        {
+            "id": "OLI1-RT5F-YU67-9HJ84342_13",
+            "version": 1,
+            "action": "Create",
+            "requestedCompletionDate": "2017-10-23T06:32-11:00",
+            "billingAccount": [{
+                "id": 875746,
+                "accountType": "Billing Account"
+            }],
+            "product": {
+                "id": "Internet_Protection_Solution_ID101_18.15_CWP",
+                "action": "add",
+                "productSpecification": {"code": "DMCAT_ProductSpecification_000163"},
+                "productCharacteristic": [
+                    {
+                        "name": "InternetProtectionSolutionType",
+                        "value": "Web and Mail"
+                    },
+                    {
+                        "name": "TotalNumberofUsers",
+                        "value": 4
+                    }
+                ]
+            }
+        },
+        {
+            "id": "OLI3-RT5F-YU67-9HJ816546_14",
+            "version": 1,
+            "action": "Create",
+            "requestedCompletionDate": "2017-10-23T06:32-11:00",
+            "billingAccount": [{
+                "id": 875746,
+                "accountType": "Billing Account"
+            }],
+            "product": {
+                "id": "Web_and_Mail_Internet_Protection_User_ID101_18.15_CWP",
+                "action": "add",
+                "productSpecification": {"code": "DMCAT_ProductSpecification_000162"},
+                "productCharacteristic": [
+                    {
+                        "name": "UserProtectionType",
+                        "value": "Web and Mail"
+                    },
+                    {
+                        "name": "Quantity",
+                        "value": 10
+                    },
+                    {
+                        "name": "InternetProtectionSolutionProductInstanceID",
+                        "value": "Internet_Protection_Solution_ID101_18.15_CWP"
+                    }
+                ],
+                "place": [{
+                    "role": "Installation",
+                    "address": {
+                        "id": "ADBoR_Melbourne",
+                        "type": "Postal",
+                        "street1": "Brevoort Place",
+                        "city": "Ellerslie",
+                        "stateOrProvince": "VIC",
+                        "postCode": 3001,
+                        "country": "Australia",
+                        "buildingName": "Ovolo",
+                        "streetType": "Lane",
+                        "streetName": "Eagle Street1",
+                        "streetNr": 225,
+                        "streetSuffix": "St",
+                        "locality": "Walker",
+                        "apartment": 121,
+                        "floor": 1,
+                        "room": 121,
+                        "geocode": {
+                            "latitude": -88.506381,
+                            "longitude": -50.25214
+                        }
+                    },
+                    "contact": [
+                        {
+                            "id": "Salesforce_Contact_Id_Site Contact",
+                            "gender": "male",
+                            "type": "Site Contact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_Out of Ofc Hrs Contact",
+                            "gender": "male",
+                            "type": "Out of Ofc Hrs",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_customerProjectContact",
+                            "gender": "male",
+                            "type": "customerProjectContact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_Project Contact",
+                            "gender": "male",
+                            "type": "Project Contact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4324421,
+                            "gender": "male",
+                            "type": "customerTechnicalContact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        }
+                    ]
+                }]
+            }
+        },
+        {
+            "id": "OLI1-RT5F-YU67-9HJ84342_18.15_CWP",
+            "version": 1,
+            "action": "Create",
+            "requestedCompletionDate": "2017-10-23T06:32-11:00",
+            "billingAccount": [{
+                "id": 875746,
+                "accountType": "Billing Account"
+            }],
+            "product": {
+                "id": "BSTenancy_Product_Instance_ID101_18.15_CWP",
+                "action": "add",
+                "productSpecification": {"code": "DMCAT_ProductSpecification_000311"},
+                "productCharacteristic": [
+                    {
+                        "name": "id",
+                        "value": ""
+                    },
+                    {
+                        "name": "NetworkServiceRef",
+                        "value": ""
+                    }
+                ]
+            }
+        },
+        {
+            "id": "OLI1-RT5F-YU67-9HJ84342_ash-18.15_CWP",
+            "version": 1,
+            "action": "Create",
+            "requestedCompletionDate": "2017-10-23T06:32-11:00",
+            "billingAccount": [{
+                "id": 875746,
+                "accountType": "Billing Account"
+            }],
+            "product": {
+                "id": "BS_Service_Type_Instance_ID101_18.15_CWP",
+                "action": "add",
+                "productSpecification": {"code": "DMCAT_ProductSpecification_000312"},
+                "productCharacteristic": [
+                    {
+                        "name": "BSTenancyProductInstanceId",
+                        "value": "BSTenancy_Product_Instance_ID101_18.15_CWP"
+                    },
+                    {
+                        "name": "usageModel",
+                        "value": "User Based"
+                    },
+                    {
+                        "name": "ConcurrencyLimit",
+                        "value": ""
+                    },
+                    {
+                        "name": "id",
+                        "value": ""
+                    },
+                    {
+                        "name": "UCService",
+                        "value": "CWP"
+                    },
+                    {
+                        "name": "NetworkServiceRef",
+                        "value": ""
+                    }
+                ],
+                "productRelationship": [
+                    {
+                        "type": "contains",
+                        "product": {
+                            "id": "ucNumbers_Service_Instance_ID101_18.15_CWP",
+                            "action": "add",
+                            "productSpecification": {"code": "DMCAT_ProductSpecification_000313"},
+                            "productCharacteristic": [
+                                {
+                                    "name": "Number",
+                                    "value": "[{'Number':'0429897652', 'action':'ADD'},{'Number': \u20180429897653\u2019, 'action':'ADD'},{'Number': \u20180429897654\u2019, 'action':'ADD'},{'Range':'012360: 0321460', 'action':'TRANSITION'},{'Range':'1212360: 122321460', 'action':'TRANSITION'}]"
+                                },
+                                {
+                                    "name": "id",
+                                    "value": ""
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "contains",
+                        "product": {
+                            "id": "ucFeaturePacks_Service_Instance_ID101_18.15_CWP",
+                            "action": "add",
+                            "productSpecification": {"code": "DMCAT_ProductSpecification_000315"},
+                            "productCharacteristic": [
+                                {
+                                    "name": "id",
+                                    "value": ""
+                                },
+                                {
+                                    "name": "Quantity",
+                                    "value": 10
+                                },
+                                {
+                                    "name": "name",
+                                    "value": "Plus UC"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "contains",
+                        "product": {
+                            "id": "ucHuntGroups_Service_Instance_ID101_18.15_CWP",
+                            "action": "add",
+                            "productSpecification": {"code": "DMCAT_ProductSpecification_000324"},
+                            "productCharacteristic": [
+                                {
+                                    "name": "id",
+                                    "value": ""
+                                },
+                                {
+                                    "name": "Quantity",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "OLI2-RT5F-YU67-9HJ84341_17_18.15_CWP",
+            "version": 1,
+            "action": "Create",
+            "requestedCompletionDate": "2017-10-23T06:32-11:00",
+            "billingAccount": [{
+                "id": 875746,
+                "accountType": "Billing Account"
+            }],
+            "orderItemCharacteristic": [{
+                "name": "AppointmentNotes",
+                "value": "Technician to be Assigned"
+            }],
+            "product": {
+                "id": "UCSITE_Instance_ID101_18.15_CWP",
+                "action": "add",
+                "productSpecification": {"code": "DMCAT_ProductSpecification_000322"},
+                "productCharacteristic": [
+                    {
+                        "name": "CustomerPreferredName",
+                        "value": "Australia Postal Corporation"
+                    },
+                    {
+                        "name": "BSServiceTypeProductInstanceID",
+                        "value": "BS_Service_Type_Instance_ID101_18.15_CWP"
+                    }
+                ],
+                "place": [{
+                    "role": "Installation",
+                    "address": {
+                        "id": "ADBoR_Melbourne",
+                        "type": "Postal",
+                        "street1": "Brevoort Place",
+                        "city": "Ellerslie",
+                        "stateOrProvince": "Victoria",
+                        "postCode": 3000,
+                        "country": "Australia",
+                        "buildingName": "Ovolo",
+                        "streetType": "Lane",
+                        "streetName": "Eagle Street",
+                        "streetNr": 225,
+                        "streetSuffix": "St",
+                        "locality": "Walker",
+                        "apartment": 121,
+                        "floor": 1,
+                        "room": 121,
+                        "geocode": {
+                            "latitude": -88.506381,
+                            "longitude": -50.25214
+                        }
+                    },
+                    "contact": [
+                        {
+                            "id": "Salesforce_Contact_Id_Site Contact",
+                            "gender": "male",
+                            "type": "Site Contact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_Out of Ofc Hrs Contact",
+                            "gender": "male",
+                            "type": "Out of Ofc Hrs",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_customerProjectContact",
+                            "gender": "male",
+                            "type": "customerProjectContact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_Project Contact",
+                            "gender": "male",
+                            "type": "Project Contact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4324421,
+                            "gender": "male",
+                            "type": "customerTechnicalContact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        }
+                    ]
+                }],
+                "productRelationship": [
+                    {
+                        "type": "contains",
+                        "product": {
+                            "id": "User_Package_Instance_ID101_18.15_CWP",
+                            "action": "add",
+                            "productSpecification": {"code": "DMCAT_ProductSpecification_000074"},
+                            "productCharacteristic": [
+                                {
+                                    "name": "Quantity",
+                                    "value": "0005"
+                                },
+                                {
+                                    "name": "UserType",
+                                    "value": "Fixed Seat"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "contains",
+                        "product": {
+                            "id": "IAD_Device_Modle1_Instance_ID101_18.15_CWP",
+                            "action": "add",
+                            "productSpecification": {"code": "DMCAT_ProductSpecification_000112"},
+                            "productCharacteristic": [
+                                {
+                                    "name": "AvailablePorts",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "BillofMaterialID",
+                                    "value": "TestId"
+                                },
+                                {
+                                    "name": "IADModel",
+                                    "value": "OneAccess One100 SX5E 2V"
+                                },
+                                {
+                                    "name": "ShippingRequired",
+                                    "value": true
+                                },
+                                {
+                                    "name": "Quantity",
+                                    "value": "0004"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "contains",
+                        "product": {
+                            "id": "IAD_Device_Model2_Instance_ID101_18.15_CWP",
+                            "action": "add",
+                            "productSpecification": {"code": "DMCAT_ProductSpecification_000112"},
+                            "productCharacteristic": [
+                                {
+                                    "name": "AvailablePorts",
+                                    "value": 8
+                                },
+                                {
+                                    "name": "BillofMaterialID",
+                                    "value": "TestId"
+                                },
+                                {
+                                    "name": "IADModel",
+                                    "value": "OneAccess One100 SX5E 8V"
+                                },
+                                {
+                                    "name": "ShippingRequired",
+                                    "value": true
+                                },
+                                {
+                                    "name": "Quantity",
+                                    "value": "0003"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "contains",
+                        "product": {
+                            "id": "Handset_Device_Model1_Instance_ID101_18.15_CWP",
+                            "action": "add",
+                            "productSpecification": {"code": "DMCAT_ProductSpecification_000097"},
+                            "productCharacteristic": [
+                                {
+                                    "name": "BillofMaterialID",
+                                    "value": ""
+                                },
+                                {
+                                    "name": "HandsetandAccessoriesType",
+                                    "value": "Headset"
+                                },
+                                {
+                                    "name": "HandsetandAccessoriesModel",
+                                    "value": "Polycom VVX501"
+                                },
+                                {
+                                    "name": "ShippingRequired",
+                                    "value": true
+                                },
+                                {
+                                    "name": "Quantity",
+                                    "value": "0004"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "contains",
+                        "product": {
+                            "id": "Handset_Device_Instance_ID101_18.15_CWP",
+                            "action": "add",
+                            "productSpecification": {"code": "DMCAT_ProductSpecification_000097"},
+                            "productCharacteristic": [
+                                {
+                                    "name": "BillofMaterialID",
+                                    "value": ""
+                                },
+                                {
+                                    "name": "HandsetandAccessoriesType",
+                                    "value": "IP Handset"
+                                },
+                                {
+                                    "name": "HandsetandAccessoriesModel",
+                                    "value": "Polycom VVX411"
+                                },
+                                {
+                                    "name": "ShippingRequired",
+                                    "value": true
+                                },
+                                {
+                                    "name": "Quantity",
+                                    "value": "0004"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "OLI1-RT5F-YU67-9HJ843821_18",
+            "version": 1,
+            "action": "Create",
+            "requestedCompletionDate": "2017-10-23T06:32-11:00",
+            "billingAccount": [{
+                "id": 875746,
+                "accountType": "Billing Account"
+            }],
+            "product": {
+                "id": "GatewayProtection_Instance_18.15_CWP",
+                "action": "add",
+                "productSpecification": {"code": "DMCAT_ProductSpecification_000338"},
+                "productCharacteristic": [
+                    {
+                        "name": "LicenseSize",
+                        "value": "VM-50"
+                    },
+                    {
+                        "name": "Latency",
+                        "value": "Best Effort"
+                    },
+                    {
+                        "name": "Bandwidth",
+                        "value": "100 Mbps"
+                    },
+                    {
+                        "name": "IPVPNProductInstanceID",
+                        "value": "IPVPN_Product_Instance_ID101_18.15_CWP"
+                    },
+                    {
+                        "name": "NetworkServiceRef",
+                        "value": ""
+                    }
+                ]
+            }
+        },
+        {
+            "id": "OLI2-RT5F-YU67-9HJ84342_19",
+            "version": 1,
+            "action": "Create",
+            "requestedCompletionDate": "2017-10-23T06:32-11:00",
+            "billingAccount": [{
+                "id": 875746,
+                "accountType": "Billing Account"
+            }],
+            "orderItemCharacteristic": [{
+                "name": "CPEDeliveryDate",
+                "value": "2017-10-30T06:08-11:00"
+            }],
+            "appointment": {
+                "id": "Appt_18.15_CWP",
+                "category": "Telstra",
+                "startDate": "2019-12-19T16:42:23",
+                "endDate": "2019-12-19T00:00:00"
+            },
+            "product": {
+                "id": "LegacyTransitionUC_ID01_18.15_CWP",
+                "action": "cease",
+                "productSpecification": {"code": "DMCAT_ProductSpecification_000343"},
+                "productCharacteristic": [
+                    {
+                        "name": "ProductType",
+                        "value": "PSTN"
+                    },
+                    {
+                        "name": "DisconnectFNN",
+                        "value": "[{'Number':'18.15_CWP_01'},{'Number':'18.15_CWP_02'}]"
+                    },
+                    {
+                        "name": "Numbers",
+                        "value": "[{'Number':'0312345800', 'action':'TRANSITION'},\n{'Number':'0312345812', 'action':'TRANSITION'},\n{'Range':'0312345700:0312345799', 'action':'TRANSITION'}]"
+                    },
+                    {
+                        "name": "BSServiceTypeProductInstanceID",
+                        "value": "BS_Service_Type_Instance_ID101_18.15_CWP"
+                    },
+                    {
+                        "name": "UCSiteProductInstanceID",
+                        "value": "UCSITE_Instance_ID101_18.15_CWP"
+                    }
+                ],
+                "place": [{
+                    "role": "Installation",
+                    "address": {
+                        "id": "ADBoR_Melbourne",
+                        "type": "Postal",
+                        "street1": "Brevoort Place",
+                        "city": "Ellerslie",
+                        "stateOrProvince": "Victoria",
+                        "postCode": 3000,
+                        "country": "Australia",
+                        "buildingName": "Ovolo",
+                        "streetType": "Lane",
+                        "streetName": "Eagle Street",
+                        "streetNr": 225,
+                        "streetSuffix": "St",
+                        "locality": "Walker",
+                        "apartment": 121,
+                        "floor": 1,
+                        "room": 121,
+                        "geocode": {
+                            "latitude": -88.506381,
+                            "longitude": -50.25214
+                        }
+                    },
+                    "contact": [
+                        {
+                            "id": "Salesforce_Contact_Id_Site Contact",
+                            "gender": "male",
+                            "type": "Site Contact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_Out of Ofc Hrs Contact",
+                            "gender": "male",
+                            "type": "Out of Ofc Hrs",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_customerProjectContact",
+                            "gender": "male",
+                            "type": "customerProjectContact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_Project Contact",
+                            "gender": "male",
+                            "type": "Project Contact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4324421,
+                            "gender": "male",
+                            "type": "customerTechnicalContact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        }
+                    ]
+                }]
+            }
+        },
+        {
+            "id": "OLI2-RT5F-YU67-9HJ84342_19",
+            "version": 1,
+            "action": "Create",
+            "requestedCompletionDate": "2017-10-23T06:32-11:00",
+            "billingAccount": [{
+                "id": 875746,
+                "accountType": "Billing Account"
+            }],
+            "orderItemCharacteristic": [
+                {
+                    "name": "CPEDeliveryDate",
+                    "value": "2017-10-30T06:08-11:00"
+                },
+                {
+                    "name": "AppointmentNotes",
+                    "value": "Technician to be Assigned"
+                }
+            ],
+            "appointment": {
+                "id": "ApptSite2_18.15_CWP",
+                "category": "Telstra",
+                "startDate": "2019-12-19T16:42:23",
+                "endDate": "2019-12-19T00:00:00"
+            },
+            "product": {
+                "id": "Device_Instance2_ID101_18.15_CWP",
+                "action": "add",
+                "productSpecification": {"code": "DMCAT_ProductSpecification_000073"},
+                "productCharacteristic": [
+                    {
+                        "name": "BillofMaterialID",
+                        "value": "73f5358d-d0c1-409c-9c63-bdf502512a84"
+                    },
+                    {
+                        "name": "CustomerPreferredName",
+                        "value": ""
+                    },
+                    {
+                        "name": "MobileBackupEnabled",
+                        "value": false
+                    },
+                    {
+                        "name": "PrimaryAccessProductInstanceID",
+                        "value": "Mobile Access_ID101_CWP_UT_ID101_18.15_CWP"
+                    },
+                    {
+                        "name": "RedundantAccessProductInstanceID",
+                        "value": "RedundantAccessProductInstanceID_909"
+                    },
+                    {
+                        "name": "RouterModel",
+                        "value": 1117
+                    },
+                    {
+                        "name": "Vendor",
+                        "value": "Cisco"
+                    },
+                    {
+                        "name": "ShippingRequired",
+                        "value": true
+                    },
+                    {
+                        "name": "CustomerLANIPAddress",
+                        "value": 123456
+                    },
+                    {
+                        "name": "MobileAccess",
+                        "value": true
+                    },
+                    {
+                        "name": "ReceivedSignalStrengthIndication",
+                        "value": true
+                    },
+                    {
+                        "name": "ExternalAntennaRequired",
+                        "value": true
+                    }
+                ],
+                "place": [{
+                    "role": "Installation",
+                    "address": {
+                        "id": "ADBoR_MelbourneSite2",
+                        "type": "Postal",
+                        "street1": "Brevoort Place",
+                        "city": "Ellerslie",
+                        "stateOrProvince": "VIC",
+                        "postCode": 3000,
+                        "country": "Australia",
+                        "buildingName": "Ovolo",
+                        "streetType": "Lane",
+                        "streetName": "Eagle Street",
+                        "streetNr": 225,
+                        "streetSuffix": "St",
+                        "locality": "Walker",
+                        "apartment": 121,
+                        "floor": 1,
+                        "room": 121,
+                        "geocode": {
+                            "latitude": -88.506381,
+                            "longitude": -50.25214
+                        }
+                    },
+                    "contact": [
+                        {
+                            "id": "Salesforce_Contact_Id_Site Contact",
+                            "gender": "male",
+                            "type": "Site Contact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_Out of Ofc Hrs Contact",
+                            "gender": "male",
+                            "type": "Out of Ofc Hrs",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_customerProjectContact",
+                            "gender": "male",
+                            "type": "customerProjectContact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Salesforce_Contact_Id_Project Contact",
+                            "gender": "male",
+                            "type": "Project Contact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4324421,
+                            "gender": "male",
+                            "type": "customerTechnicalContact",
+                            "givenName": "John",
+                            "familyName": "Doe",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "john@domain.com"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+436641234567 "}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+436641234567 "}
+                                }
+                            ]
+                        }
+                    ]
+                }],
+                "productRelationship": [
+                    {
+                        "type": "contains",
+                        "product": {
+                            "id": "Maintenance__instance_ID01_18.15_CWP",
+                            "action": "add",
+                            "productSpecification": {"code": "DMCAT_ProductSpecification_000076"},
+                            "productCharacteristic": [
+                                {
+                                    "name": "HardwareReplacementProvider",
+                                    "value": "CISCO"
+                                },
+                                {
+                                    "name": "BillofMaterialID",
+                                    "value": "BillAmdocs_04062018_0700"
+                                },
+                                {
+                                    "name": "MaintainerOnSite",
+                                    "value": "Telstra"
+                                },
+                                {
+                                    "name": "MaintenanceCoverageHours",
+                                    "value": "8x5xNBD"
+                                },
+                                {
+                                    "name": "VendorSupportOnSite",
+                                    "value": false
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "contains",
+                        "product": {
+                            "id": "Management_Instance_ID1_18.15_CWP",
+                            "action": "add",
+                            "productSpecification": {"code": "DMCAT_ProductSpecification_000077"},
+                            "productCharacteristic": [
+                                {
+                                    "name": "ManagementType",
+                                    "value": "Proactive"
+                                },
+                                {
+                                    "name": "ManagementServiceHours",
+                                    "value": "EBH7"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "OLI2-RT5F-YU67-9HJ84342_19",
+            "version": 1,
+            "action": "Create",
+            "requestedCompletionDate": "2017-07-31T00:00+10:00",
+            "billingAccount": [{
+                "id": 875746,
+                "accountType": "Billing Account"
+            }],
+            "product": {
+                "id": "Mobile Access_ID101_CWP_UT_ID101_18.15_CWP",
+                "action": "add",
+                "place": [{
+                    "role": "Installation",
+                    "address": {
+                        "id": "ADBoR_MelbourneSite2",
+                        "street1": "Morphett Vale",
+                        "street2": 100100433,
+                        "city": "MORPHETT VALE",
+                        "stateOrProvince": "SA",
+                        "postCode": 5162,
+                        "country": "Australia"
+                    },
+                    "contact": [
+                        {
+                            "id": "1-1HX3QDD",
+                            "type": "Site Contact",
+                            "givenName": "SIMON",
+                            "familyName": "TRANGMAR",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "simont@healthpartners.com.au"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+610882364597"}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+610488026172"}
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1-1HX3QDD",
+                            "type": "Out of Office Hrs",
+                            "givenName": "SIMON",
+                            "familyName": "TRANGMAR",
+                            "title": "Mr.",
+                            "contactMedium": [
+                                {
+                                    "type": "Email",
+                                    "medium": {"emailAddress": "simont@healthpartners.com.au"}
+                                },
+                                {
+                                    "type": "Telephone",
+                                    "medium": {"number": "+610882364597"}
+                                },
+                                {
+                                    "type": "Mobile",
+                                    "medium": {"number": "+610488026172"}
+                                }
+                            ]
+                        }
+                    ]
+                }],
+                "productSpecification": {"code": "DMCAT_ProductSpecification_000263"},
+                "productCharacteristic": [
+                    {
+                        "name": "IPWirelessProductInstanceID",
+                        "value": "IPWireless_Product_Instance_ID101_18.15_CWP"
+                    },
+                    {
+                        "name": "SERVICEPROFILE",
+                        "value": "DATA_BACKUP"
+                    },
+                    {
+                        "name": "SERVICEID",
+                        "value": 61417111111
+                    },
+                    {
+                        "name": "BillofMaterialID",
+                        "value": "ea4458f1-5da2-4de2-ab34-629262d4da63"
+                    },
+                    {
+                        "name": "ShippingRequired",
+                        "value": true
+                    },
+                    {
+                        "name": "IMSI",
+                        "value": ""
+                    },
+                    {
+                        "name": "AccessRole",
+                        "value": "Primary"
+                    }
+                ]
+            }
+        }
+    ]
+}
